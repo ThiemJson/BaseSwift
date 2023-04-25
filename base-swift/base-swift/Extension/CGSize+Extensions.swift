@@ -2,7 +2,7 @@
 //  CGSize+Extensions.swift
 //  BaseSwift
 //
-//  Created by DucDT on 15/03/2023.
+//  Created by ThiemJason on 15/03/2023.
 //  Copyright © 2023 BaseSwift. All rights reserved.
 //
 

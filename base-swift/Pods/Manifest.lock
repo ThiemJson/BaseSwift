@@ -3,6 +3,7 @@ PODS:
   - CryptoSwift (1.6.0)
   - Differentiator (5.0.0)
   - IQKeyboardManagerSwift (6.5.11)
+  - KeychainAccess (4.2.2)
   - lottie-ios (4.0.1)
   - NVActivityIndicatorView (5.1.1):
     - NVActivityIndicatorView/Base (= 5.1.1)
@@ -45,6 +46,7 @@ DEPENDENCIES:
   - Alamofire (= 5.6.4)
   - CryptoSwift
   - IQKeyboardManagerSwift (= 6.5.11)
+  - KeychainAccess (= 4.2.2)
   - lottie-ios
   - NVActivityIndicatorView (= 5.1.1)
   - ReachabilitySwift (= 5.0.0)
@@ -68,6 +70,7 @@ SPEC REPOS:
     - CryptoSwift
     - Differentiator
     - IQKeyboardManagerSwift
+    - KeychainAccess
     - lottie-ios
     - NVActivityIndicatorView
     - ReachabilitySwift
@@ -92,6 +95,7 @@ SPEC CHECKSUMS:
   CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
   Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
   IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
   lottie-ios: 54d22edf55b839f0929cabbfe609c9aa548b1145
   NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
   ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
@@ -111,6 +115,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: cef3206b57ab0905e075b85d510de53e1015b9d0
+PODFILE CHECKSUM: a911855a46f391d8773da8d86d08aef8200883a3
 
 COCOAPODS: 1.12.0

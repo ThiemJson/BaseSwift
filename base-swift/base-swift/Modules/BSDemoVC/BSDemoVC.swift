@@ -11,5 +11,6 @@ import UIKit
 class BSDemoVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.pop()
     }
 }

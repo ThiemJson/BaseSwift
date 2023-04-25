@@ -275,6 +275,6 @@ func <-> <T>(property: ControlProperty<T>, variable: BehaviorRelay<T>) -> Dispos
 
 extension ObservableType {
     func onMain() -> Observable<Element> {
-        return observeOn(MainScheduler.instance)
+        return observeOn(MainScheduler.asyncInstance)
     }
 }

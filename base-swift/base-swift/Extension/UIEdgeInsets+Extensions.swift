@@ -2,7 +2,7 @@
 //  UIEdgeInsets+Extensions.swift
 //  BaseSwift
 //
-//  Created by ducdt on 13/03/2023.
+//  Created by ThiemJason on 13/03/2023.
 //  Copyright © 2023 BaseSwift. All rights reserved.
 //
 
