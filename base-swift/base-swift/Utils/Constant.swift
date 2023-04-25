@@ -7,19 +7,6 @@
 
 import UIKit
 
-var isPad = Bool()
-var badgeCount = 0 {
-    didSet {
-        // Cập nhật lại số thông báo ở icon app ngoài màn hình ứng dụng
-        UNUserNotificationCenter.current().requestAuthorization(options: .badge) { (granted, error) in
-            if error != nil { return }
-            DispatchQueue.main.async {
-                UIApplication.shared.applicationIconBadgeNumber = badgeCount
-            }
-        }
-    }
-}
-
 struct Constant {
     
     struct Values {

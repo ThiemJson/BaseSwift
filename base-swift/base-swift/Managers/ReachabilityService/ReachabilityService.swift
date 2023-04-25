@@ -44,8 +44,6 @@ class ReachabilityService : NSObject {
         let reachability = note.object as! Reachability
         self.delegate?.reachabilityChanged(connectionType: reachability.connection)
         self.rxConnectionType.accept(reachability.connection)
-        print(self.prefixLog, " \(reachability.connection)")
-        
         if reachability.connection == .unavailable {
             AppMessagesManager.shared.showMessage(messageType: .error, message: BaseText.networkError)
         }

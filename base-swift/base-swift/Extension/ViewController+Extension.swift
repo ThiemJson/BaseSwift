@@ -106,7 +106,7 @@ extension UIViewController {
     }
     
     var isIpadLandsScape: Bool {
-        if isPad {
+        if HelperUtils.isPad {
             let orientation = UIApplication.shared.statusBarOrientation.isLandscape
             return orientation
         }
@@ -114,7 +114,7 @@ extension UIViewController {
     }
     
     var isIpadPortrait: Bool {
-        if isPad {
+        if HelperUtils.isPad {
             let orientation = UIApplication.shared.statusBarOrientation.isPortrait
             return orientation
         }

@@ -11,7 +11,7 @@ import Alamofire
 open class BaseNetworkService {
     public static let shared = BaseNetworkService()
     public var sessionManager = Session.default
-    public static let successStatusCodes: [Int] = [200]
+    public static let successStatusCodes: [Int] = [200, 0]
     
     private lazy var userAgent = initUserAgent()
     

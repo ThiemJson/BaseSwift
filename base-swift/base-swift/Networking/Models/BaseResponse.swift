@@ -15,8 +15,8 @@ public class BaseResponse: BaseModel {
     public var message: String?
 
     enum CodingKeys: String, CodingKey {
-        case code = "errorCode"
-        case message = "errorMessage"
+        case code = "code"
+        case message = "message"
         case data = "data"
     }
     

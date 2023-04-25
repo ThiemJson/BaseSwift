@@ -1,0 +1,20 @@
+//
+//  DemoDashboardVM.swift
+//  base-swift
+//
+//  Created by ThiemJason on 25/04/2023.
+//  Copyright © 2023 BaseSwift. All rights reserved.
+//
+
+import Foundation
+import RxCocoa
+import RxSwift
+
+/** `Define` */
+protocol DemoDashboardVM : BaseViewModel {}
+
+/** `Implement function` */
+extension DemoDashboardVM {}
+
+/** `Implement Properties` */
+class DemoDashboardVMObject : BaseViewModelObject, DemoDashboardVM {}

@@ -14,7 +14,7 @@ extension UISwitch {
         self.backgroundColor = Constant.Color.hex_9EB6C3_op50
         self.onTintColor = Constant.Color.hex_2D74E7
         self.layer.cornerRadius = 16
-        if isPad {
+        if HelperUtils.isPad {
             self.transform = CGAffineTransform(scaleX: 1, y: 1)
         }else{
             self.transform = CGAffineTransform(scaleX: 0.75, y: 0.75)

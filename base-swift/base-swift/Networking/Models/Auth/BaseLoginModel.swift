@@ -1,5 +1,5 @@
 //
-//  AuthModel.swift
+//  BaseLoginModel.swift
 //  base-swift
 //
 //  Created by ThiemJason on 4/25/23.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-struct AuthModel : Codable {
-    public var username: String?
-    public var password: String?
+struct BaseLoginModel : Codable {
+    var email: String?
+    var password: String?
     
     enum CodingKeys: String, CodingKey {
-        case username = "username"
+        case email = "email"
         case password = "password"
     }
     
@@ -21,7 +21,7 @@ struct AuthModel : Codable {
     
     init(from decoder: Decoder) throws {
         let values = try decoder.container(keyedBy: CodingKeys.self)
-        username = try values.decodeIfPresent(String.self, forKey: .username)
+        email = try values.decodeIfPresent(String.self, forKey: .email)
         password = try values.decodeIfPresent(String.self, forKey: .password)
     }
     

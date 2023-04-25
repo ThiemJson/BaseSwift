@@ -240,11 +240,15 @@ extension BaseViewController {
     }
     
     public func showSnackError(message: String) {
-        AppMessagesManager.shared.showMessage(messageType: .error, message: message)
+        DispatchQueue.main.async {
+            AppMessagesManager.shared.showMessage(messageType: .error, message: message)
+        }
     }
     
     public func showSnackAlertSuccess(message: String) {
-        AppMessagesManager.shared.showMessage(messageType: .success, message: message)
+        DispatchQueue.main.async {
+            AppMessagesManager.shared.showMessage(messageType: .success, message: message)
+        }
     }
 }
 
@@ -266,6 +270,39 @@ extension BaseViewController {
         modalPresentationStyle  = .overFullScreen
         modalTransitionStyle    = .crossDissolve
         UIViewController.topViewController?.present(self, animated: true, completion: completion)
+    }
+    
+    func replaceRoot(to viewController: UIViewController,
+                     withTransitionType type: CATransitionType = .push,
+                     andTransitionSubtype subtype: CATransitionSubtype = .fromLeft ) {
+        
+        let navVC       = viewController.embedInNavigationController()
+        let window      = UIApplication.shared.windows.first(where: { $0.isKeyWindow })
+        let transition  = CATransition()
+        transition.duration         = 0.3
+        transition.timingFunction   = CAMediaTimingFunction(
+            name: CAMediaTimingFunctionName.easeOut
+        )
+        transition.type = type
+        transition.subtype = subtype
+        window?.layer.add(transition, forKey: kCATransition)
+        window?.rootViewController = navVC
+    }
+    
+    private func animateRootReplacementTransition ( to viewController: UIViewController,
+                                                    withTransitionType type: CATransitionType,
+                                                    andTransitionSubtype subtype: CATransitionSubtype ) {
+        let window = UIApplication.shared.windows.first(where: { $0.isKeyWindow })
+        let transition = CATransition()
+        transition.duration = 0.3
+        transition.timingFunction = CAMediaTimingFunction(
+            name: CAMediaTimingFunctionName.easeOut
+        )
+        transition.type = type
+        transition.subtype = subtype
+        window?.layer.add(transition, forKey: kCATransition)
+        
+        window?.rootViewController = viewController
     }
 }
 

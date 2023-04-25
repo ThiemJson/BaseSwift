@@ -1,5 +1,5 @@
 //
-//  AuthService.swift
+//  BaseAuthService.swift
 //  base-swift
 //
 //  Created by ThiemJason on 4/25/23.
@@ -39,12 +39,11 @@
  */
 
 import Foundation
-public class AuthService {
-    static func login(authModel: AuthModel) -> BaseResult<TokenModel> {
-        return BaseRouter.login(auth: authModel).object()
+public class BaseAuthService {
+    static func register(regisModel: BaseRegistrationModel) -> BaseResult<BaseAuthModel> {
+        return BaseRouter.register(regisModel: regisModel).object()
     }
-    
-    static func logout(token: String) -> BaseResult<BaseResponse> {
-        return BaseRouter.logout(token: token).object()
+    static func login(loginModel: BaseLoginModel) -> BaseResult<BaseAuthModel> {
+        return BaseRouter.login(loginModel: loginModel).object()
     }
 }

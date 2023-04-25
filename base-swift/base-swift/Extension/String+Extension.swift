@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 import CryptoSwift
 
-let keyCrypto: Array<UInt8> = Array("baseswift-o6o12oii".utf8)
-let saltCrypto: Array<UInt8> = Array("4g0l0nhc377pnv".utf8)
-let arrIV: [UInt8] = Array("baseswift-4g0l0nhc".utf8)
+let keyCrypto: Array<UInt8> = Array("thiemjs-rtyuiopl".utf8)
+let saltCrypto: Array<UInt8> = Array("asdfghjklzxcvb".utf8)
+let arrIV: [UInt8] = Array("thiemjs-asdfghjk".utf8)
 
 
 extension String {

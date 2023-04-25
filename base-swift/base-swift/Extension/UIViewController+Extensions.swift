@@ -68,4 +68,10 @@ extension UIViewController {
         viewControllers.removeAll(where: { $0 is Self && $0 != self })
         navi.viewControllers = viewControllers
     }
+    
+    func embedInNavigationController() -> UINavigationController {
+        let navigationController = UINavigationController(rootViewController: self)
+        navigationController.isNavigationBarHidden = true
+        return navigationController
+    }
 }

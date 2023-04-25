@@ -7,34 +7,44 @@
 //
 
 import Alamofire
-
+/**
+ This API from https://www.appsloveworld.com/sample-rest-api-url-for-testing-with-authentication
+ */
 enum BaseEndpoint : String {
-    case login  = "/auth/login"
-    case logout = "/auth/logout"
+    /** `Auth` */
+    case register   = "/authaccount/registration"
+    case login      = "/authaccount/login"
+    
+    /** `User` */
+    case user       = "/users"
 }
 
 enum BaseRouter {
 #if Develop
-    static let baseURL = "https://dev-base.api.vn/api"
+    static let domain  = "restapi.adequateshop.com"
+    static let baseURL = "http://\(domain)/api"
 #elseif Staging
-    static let baseURL = "https://staging-base.api.vn/api"
+    static let domain  = "restapi.adequateshop.com"
+    static let baseURL = "http://\(domain)/api"
 #else
-    static let baseURL = "https://base.api.vn/api"
+    static let domain  = "restapi.adequateshop.com"
+    static let baseURL = "http://\(domain)/api"
 #endif
     
     /** `Auth` */
-    case login(auth: AuthModel)
-    case logout(token: String)
+    case register(regisModel: BaseRegistrationModel)
+    case login(loginModel: BaseLoginModel)
 }
 
 extension BaseRouter: URLRequestConvertible {
     // MARK: - Request Info
     var request: (HTTPMethod, String) {
         switch self {
-        case .login(auth: _):
+            /** `Auth` */
+        case .register(regisModel: _):
+            return (.post, BaseEndpoint.register.rawValue)
+        case .login(loginModel: _):
             return (.post, BaseEndpoint.login.rawValue)
-        case .logout(token: let token):
-            return (.post, "\(BaseEndpoint.logout.rawValue)/\(token)")
         }
     }
     
@@ -47,8 +57,10 @@ extension BaseRouter: URLRequestConvertible {
     var params: [String: Any]? {
         switch self {
             /** `Auth` */
-        case .login(auth: var auth):
-            return auth.toJSON()
+        case .register(regisModel: var regisModel):
+            return regisModel.toJSON()
+        case .login(loginModel: var loginModel):
+            return loginModel.toJSON()
         default:
             return [:]
         }

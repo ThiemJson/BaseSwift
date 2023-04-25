@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -10,16 +13,53 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    <view key="view" contentMode="scaleToFill" id="pJ4-HM-93A">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash_background" translatesAutoresizingMaskIntoConstraints="NO" id="vFa-xa-q2E">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash_background_top" translatesAutoresizingMaskIntoConstraints="NO" id="Dsv-3v-o0y">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="MZF-qt-Nfs"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash_background_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="CaQ-2p-72P">
+                                <rect key="frame" x="0.0" y="652" width="393" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="CfO-WR-U7v"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1GC-Ly-q5J"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CaQ-2p-72P" secondAttribute="trailing" id="Ctr-Di-CMz"/>
+                            <constraint firstItem="CaQ-2p-72P" firstAttribute="leading" secondItem="pJ4-HM-93A" secondAttribute="leading" id="Q14-ZR-45Z"/>
+                            <constraint firstItem="vFa-xa-q2E" firstAttribute="top" secondItem="pJ4-HM-93A" secondAttribute="top" id="Q1d-CF-4xF"/>
+                            <constraint firstAttribute="trailing" secondItem="vFa-xa-q2E" secondAttribute="trailing" id="Sce-wa-vgA"/>
+                            <constraint firstAttribute="bottom" secondItem="CaQ-2p-72P" secondAttribute="bottom" id="a25-OJ-hXv"/>
+                            <constraint firstItem="Dsv-3v-o0y" firstAttribute="leading" secondItem="pJ4-HM-93A" secondAttribute="leading" id="baY-05-99z"/>
+                            <constraint firstItem="Dsv-3v-o0y" firstAttribute="top" secondItem="pJ4-HM-93A" secondAttribute="top" id="ezH-4X-p7F"/>
+                            <constraint firstItem="vFa-xa-q2E" firstAttribute="leading" secondItem="pJ4-HM-93A" secondAttribute="leading" id="f82-xK-Ttu"/>
+                            <constraint firstAttribute="bottom" secondItem="vFa-xa-q2E" secondAttribute="bottom" id="t7f-LB-aQX"/>
+                            <constraint firstAttribute="trailing" secondItem="Dsv-3v-o0y" secondAttribute="trailing" id="xgH-xa-SCm"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_splash_background" width="375" height="812"/>
+        <image name="ic_splash_background_bottom" width="375" height="213.66667175292969"/>
+        <image name="ic_splash_background_top" width="352.66665649414062" height="140"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

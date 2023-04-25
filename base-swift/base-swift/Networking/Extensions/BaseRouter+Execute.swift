@@ -86,6 +86,11 @@ extension BaseRouter {
                  */
                 if let json = dataValue as? [String: Any], let object = BaseResponse.from(json: json), object.code != nil {
                     responseObject = object
+                    
+                    /// Lấy trường `data`, vì có nhiều trường hợp `object` nil trường data
+                    if let data = json["data"] as? [String : Any] {
+                        responseObject.anyData = data
+                    }
                 }
                 
                 //Xu ly response statusCode
