@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  base-swift
+
+  Created by ThiemJason on 26/04/2023.
+  Copyright © 2023 BaseSwift. All rights reserved.
+*/
+"KEY_DEFAULT_INTERNET_ERROR"        = "Mất kết nối vui lòng kiểm tra lại đường truyền";
+"KEY_UNKNOWN_ERROR"                 = "Đã có lỗi xảy ra!";
+"KEY_LOADING"                       = "Đang tải...";
+"KEY_LOADING"                       = "Loading...";
+"KEY_ACT_OK"                        = "OK";
+"KEY_ACT_DONE"                      = "Xong";
+"KEY_ACT_CANCEL"                    = "Hủy";
+"KEY_ACT_DELETE"                    = "Xóa";
+"KEY_ACT_MOVE"                      = "Di chuyển";
+"KEY_ACT_EDIT"                      = "Sửa";
+"KEY_ACT_SAVE"                      = "Lưu";
+"KEY_ACT_AGREE"                     = "Đồng ý";
+"KEY_ACT_DETAIL"                    = "Chi tiết";
+"KEY_ACT_EXIT"                      = "Thoát";
+"KEY_ACT_RETRY"                     = "Thử lại";
+"KEY_ACT_SEND"                      = "Gửi";
+"KEY_ACT_CHANGE"                    = "Thay đổi";
+"KEY_ACT_CONFIRM"                   = "Xác nhận";
+"KEY_ACT_SELECT_ALL"                = "Chọn tất cả";
+"KEY_ACT_PLAYBACK"                  = "Phát lại";
+"KEY_ACT_DOWNLOAD"                  = "Tải file";
+"KEY_ACT_CLOSE"                     = "Đóng";
+"KEY_ACT_HELP"                      = "Trợ giúp";
+"KEY_ACT_SUPPORT"                   = "Hỗ trợ";
+"KEY_ACT_DELETE_SETTING"            = "Xoá cài đặt";

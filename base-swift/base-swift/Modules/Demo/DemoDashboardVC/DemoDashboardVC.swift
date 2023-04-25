@@ -29,7 +29,7 @@ class DemoDashboardVC: BaseViewModelController<DemoDashboardVM> {
                 
                 /** `Navigate to Login` */
                 let loginVC = DemoLoginVC(DemoLoginVMObject())
-                self.replaceRoot(to: loginVC)
+                self.replaceRoot(to: loginVC, withTransitionType: .moveIn , andTransitionSubtype: .fromLeft)
             })
             .disposed(by: self.rxDisposeBag)
     }

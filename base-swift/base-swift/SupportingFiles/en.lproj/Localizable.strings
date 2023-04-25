@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  base-swift
+
+  Created by ThiemJason on 26/04/2023.
+  Copyright © 2023 BaseSwift. All rights reserved.
+*/
+"KEY_DEFAULT_INTERNET_ERROR"        = "No internet. Please check connection.";
+"KEY_UNKNOWN_ERROR"                 = "Error has occurred!";
+"KEY_LOADING"                       = "Loading...";
+"KEY_ACT_OK"                        = "OK";
+"KEY_ACT_DONE"                      = "Done";
+"KEY_ACT_CANCEL"                    = "Cancel";
+"KEY_ACT_DELETE"                    = "Delete";
+"KEY_ACT_MOVE"                      = "Move";
+"KEY_ACT_EDIT"                      = "Edit";
+"KEY_ACT_SAVE"                      = "Save";
+"KEY_ACT_AGREE"                     = "Accept";
+"KEY_COMMON_ACT_AGREE"              = "Accept";
+"KEY_COMMON_ACT_DECLINE"            = "Decline";
+"KEY_ACT_DETAIL"                    = "Detail";
+"KEY_ACT_EXIT"                      = "Exit";
+"KEY_ACT_RETRY"                     = "Again";
+"KEY_ACT_SEND"                      = "Send";
+"KEY_ACT_CHANGE"                    = "Change";
+"KEY_ACT_CONFIRM"                   = "Confirm";
+"KEY_ACT_SELECT_ALL"                = "Select All";
+"KEY_ACT_PLAYBACK"                  = "Play back";
+"KEY_ACT_DOWNLOAD"                  = "Download";
+"KEY_ACT_CLOSE"                     = "Close";
+"KEY_ACT_HELP"                      = "Help";
+"KEY_ACT_SUPPORT"                   = "Support";
+"KEY_ACT_DELETE_SETTING"            = "Delete setting";

@@ -9,23 +9,28 @@ import UIKit
 import Reachability
 import RxSwift
 import RxCocoa
+import RxLocalizer
 
 open class BaseViewController: UIViewController {
     
     /** `Properties` */
-    open var shouldDisplayLostConnectionView : Bool
+    open var shouldDisplayLostConnectionView        : Bool
+    
+    open var backButton                             : UIBarButtonItem?
+    
+    open var titleBackButton                        : String? = ""
+    
+    open var rxDisposeBag                           = DisposeBag()
+    
+    var languageModel                               = LanguageModel(localizer: Localizer.shared)
     
     /** `Background task` */
-    open var shouldUseBackgroundTask : Bool
-    open var backgroundTaskID : UIBackgroundTaskIdentifier?
+    open var shouldUseBackgroundTask                : Bool
     
-    open var backButton: UIBarButtonItem?
+    open var backgroundTaskID                       : UIBackgroundTaskIdentifier?
     
-    open var titleBackButton: String? = ""
+    private var _keyboardHeight                     : CGFloat = 0
     
-    open var rxDisposeBag = DisposeBag()
-    
-    private var _keyboardHeight: CGFloat = 0
     open var keyboardHeight: CGFloat {
         return self._keyboardHeight
     }
@@ -88,6 +93,9 @@ open class BaseViewController: UIViewController {
     
     /** `UI Configuration` */
     open func setupUI() {}
+    
+    /** `Localizer` */
+    open func setupLocalizer() {}
     
     /** `Binding Rx` */
     open func setupBinding() {}
@@ -274,7 +282,7 @@ extension BaseViewController {
     
     func replaceRoot(to viewController: UIViewController,
                      withTransitionType type: CATransitionType = .push,
-                     andTransitionSubtype subtype: CATransitionSubtype = .fromLeft ) {
+                     andTransitionSubtype subtype: CATransitionSubtype = .fromRight ) {
         
         let navVC       = viewController.embedInNavigationController()
         let window      = UIApplication.shared.windows.first(where: { $0.isKeyWindow })
@@ -287,22 +295,6 @@ extension BaseViewController {
         transition.subtype = subtype
         window?.layer.add(transition, forKey: kCATransition)
         window?.rootViewController = navVC
-    }
-    
-    private func animateRootReplacementTransition ( to viewController: UIViewController,
-                                                    withTransitionType type: CATransitionType,
-                                                    andTransitionSubtype subtype: CATransitionSubtype ) {
-        let window = UIApplication.shared.windows.first(where: { $0.isKeyWindow })
-        let transition = CATransition()
-        transition.duration = 0.3
-        transition.timingFunction = CAMediaTimingFunction(
-            name: CAMediaTimingFunctionName.easeOut
-        )
-        transition.type = type
-        transition.subtype = subtype
-        window?.layer.add(transition, forKey: kCATransition)
-        
-        window?.rootViewController = viewController
     }
 }
 

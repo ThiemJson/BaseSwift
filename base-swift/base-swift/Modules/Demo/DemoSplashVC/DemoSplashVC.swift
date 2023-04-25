@@ -17,10 +17,10 @@ class DemoSplashVC: BaseViewModelController<DemoSplashVM> {
         super.viewDidAppear(animated)
         if let token = UserDefaultUtils.shared.getAccessToken(), token.isEmpty == false {
             let dashboardVC = DemoDashboardVC(DemoDashboardVMObject())
-            self.replaceRoot(to: dashboardVC)
+            self.replaceRoot(to: dashboardVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
         } else {
             let loginVC = DemoLoginVC(DemoLoginVMObject())
-            self.replaceRoot(to: loginVC)
+            self.replaceRoot(to: loginVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
         }
     }
 }

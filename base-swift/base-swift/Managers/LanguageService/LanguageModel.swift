@@ -10,6 +10,14 @@ import RxCocoa
 import RxLocalizer
 import RxSwift
 
+///```
+/// `Sử dụng tại UIViewController`
+///     override func setupLocalizer() {
+///         super.setupLocalizer()
+///         self.languageModel.Done.drive(self.btnDone.rx.title()).disposed(by: self.rxDisposeBag)
+///     }
+///```
+
 protocol LanguageModelType {
     var Ok: Driver<String> { get }
     var Done: Driver<String> { get }
