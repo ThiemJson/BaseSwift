@@ -1,6 +1,0 @@
-framework module Pods_base_swift_stag {
-  umbrella header "Pods-base-swift-stag-umbrella.h"
-
-  export *
-  module * { export * }
-}

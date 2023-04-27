@@ -1,0 +1,120 @@
+PODS:
+  - Alamofire (5.6.4)
+  - CryptoSwift (1.6.0)
+  - Differentiator (5.0.0)
+  - IQKeyboardManagerSwift (6.5.11)
+  - KeychainAccess (4.2.2)
+  - lottie-ios (4.1.3)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - ReachabilitySwift (5.0.0)
+  - Realm (5.5.1):
+    - Realm/Headers (= 5.5.1)
+  - Realm/Headers (5.5.1)
+  - RealmSwift (5.5.1):
+    - Realm (= 5.5.1)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxLocalizer (1.7.0):
+    - RxCocoa (~> 6.2.0)
+    - RxSwift (~> 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - SideMenu (6.5.0)
+  - SnapKit (5.6.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.4)
+  - CryptoSwift
+  - IQKeyboardManagerSwift (= 6.5.11)
+  - KeychainAccess (= 4.2.2)
+  - lottie-ios
+  - NVActivityIndicatorView (= 5.1.1)
+  - ReachabilitySwift (= 5.0.0)
+  - RealmSwift (= 5.5.1)
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxLocalizer
+  - RxSwift
+  - SDWebImage
+  - SideMenu (= 6.5.0)
+  - SnapKit (= 5.6.0)
+  - SVProgressHUD (= 2.2.5)
+  - SwiftMessages (= 9.0.6)
+  - SwiftyJSON (= 5.0.1)
+  - Toast-Swift (= 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CryptoSwift
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - KeychainAccess
+    - lottie-ios
+    - NVActivityIndicatorView
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxLocalizer
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SideMenu
+    - SnapKit
+    - SVProgressHUD
+    - SwiftMessages
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CryptoSwift: 562f8eceb40e80796fffc668b0cad9313284cfa6
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  lottie-ios: d0954d3150061f662ed0adf96ef98d7421864c47
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: c2ffe0667f9c98c9ba65f608ba85684d39826145
+  RealmSwift: 5a35c1c35c3e1925e6fcd092c881d5cc4a826bff
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
+  RxLocalizer: 25464fbd3011635be3a4cd1325ffaa894a8058c4
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 8dccf3ee4b93bac9a2897b8f5534250e5791eb09
+
+COCOAPODS: 1.12.0
