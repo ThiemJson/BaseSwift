@@ -64,7 +64,7 @@ class DemoLoginVC: BaseViewModelController<DemoLoginVM> {
                 UserDefaultUtils.shared.saveAccessToken(token: token)
                 
                 /** `Change root to Dashboard` */
-                self.replaceRoot(to: DemoDashboardVC(DemoDashboardVMObject()))
+                self.replaceRoot(to: RootTabbarVC())
             })
             .disposed(by: self.rxDisposeBag)
         

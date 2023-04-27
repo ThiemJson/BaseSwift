@@ -15,12 +15,15 @@ class DemoSplashVC: BaseViewModelController<DemoSplashVM> {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        if let token = UserDefaultUtils.shared.getAccessToken(), token.isEmpty == false {
-            let dashboardVC = DemoDashboardVC(DemoDashboardVMObject())
-            self.replaceRoot(to: dashboardVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
-        } else {
-            let loginVC = DemoLoginVC(DemoLoginVMObject())
-            self.replaceRoot(to: loginVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
-        }
+        let dashboardVC = RootTabbarVC()
+        self.replaceRoot(to: dashboardVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
+        
+        //        if let token = UserDefaultUtils.shared.getAccessToken(), token.isEmpty == false {
+        //            let dashboardVC = RootTabbarVC()
+        //            self.replaceRoot(to: dashboardVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
+        //        } else {
+        //            let loginVC = DemoLoginVC(DemoLoginVMObject())
+        //            self.replaceRoot(to: loginVC, withTransitionType: .push, andTransitionSubtype: .fromRight)
+        //        }
     }
 }

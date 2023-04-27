@@ -57,7 +57,12 @@ open class BaseViewController: UIViewController {
     }
     
     private func initDefault() {
-        self.hidesBottomBarWhenPushed = true
+        self.hidesBottomBarWhenPushed   = false
+        self.view.backgroundColor       = .black
+    }
+    
+    open override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     
     deinit {
@@ -86,8 +91,10 @@ open class BaseViewController: UIViewController {
     open override func viewDidLoad() {
         super.viewDidLoad()
         self.setupUI()
+        self.setupNavBar()
         self.setupBinding()
         self.handlerAction()
+        self.setupLocalizer()
         self.registerNotification()
     }
     
@@ -105,6 +112,9 @@ open class BaseViewController: UIViewController {
     
     /** `Vào view nếu mât kết nối thì sẽ refresh data sau khi có kết nối trở lại` */
     open func refreshData() {}
+    
+    /** `Navigation` */
+    open func setupNavBar() {}
 }
 
 // MARK: Notification Center
@@ -179,6 +189,9 @@ extension BaseViewController {
         self.navigationController?.navigationBar.barTintColor   = UIColor.clear
         self.navigationController?.navigationBar.tintColor      = .white
         self.navigationController?.navigationBar.barStyle       = .black
+        
+        /** `Tạm ẩn navigation bar và dùng custom` */
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
     
     public func resetBackBarButton(_ title: String, _ titleColor: UIColor? = .white) {

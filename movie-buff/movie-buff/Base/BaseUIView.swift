@@ -7,5 +7,5 @@
 
 import UIKit
 
-class BaseView: UIView {
+class BaseUIView: UIView {
 }

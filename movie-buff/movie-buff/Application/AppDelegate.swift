@@ -112,7 +112,7 @@ extension AppDelegate {
     }
     
     private func initLocalized() {
-        if let _ = UserDefaultUtils.shared.getAppLanguage() { return }
+        //if let _ = UserDefaultUtils.shared.getAppLanguage() { return }
         UserDefaultUtils.shared.saveAppLanguage(language: deLangVi)
         Localizer.shared.changeLanguage.accept(deLangVi)
     }
