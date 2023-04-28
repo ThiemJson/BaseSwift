@@ -10,7 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchDasboardVC" customModule="movie_dev" customModuleProvider="target">
             <connections>
+                <outlet property="clvMovie" destination="Ntq-n8-Y5U" id="gw1-9v-btJ"/>
+                <outlet property="imgNodata" destination="0J5-m0-Hks" id="mHW-wm-DRP"/>
+                <outlet property="lblNodata" destination="iSM-jh-3l4" id="THG-ZC-SyT"/>
                 <outlet property="vNavBar" destination="Oj8-RH-Jpa" id="SI3-0Y-fGO"/>
+                <outlet property="vNodata" destination="n4D-oZ-Swy" id="bML-um-mKx"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,16 +27,63 @@
                     <rect key="frame" x="0.0" y="59" width="393" height="63.333333333333343"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Ntq-n8-Y5U" userLabel="clvMovie">
+                    <rect key="frame" x="12" y="122.33333333333331" width="369" height="695.66666666666674"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="d2D-oy-KIi">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n4D-oZ-Swy" userLabel="vNoData">
+                    <rect key="frame" x="0.0" y="122.33333333333331" width="393" height="695.66666666666674"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="errorIconLight.png" translatesAutoresizingMaskIntoConstraints="NO" id="0J5-m0-Hks" userLabel="imgNoData">
+                            <rect key="frame" x="137.66666666666666" y="238.99999999999997" width="117.66666666666666" height="117.66666666666666"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="0J5-m0-Hks" secondAttribute="height" id="x5C-EB-IIO"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSM-jh-3l4" userLabel="lblNodata">
+                            <rect key="frame" x="114" y="376.66666666666669" width="165" height="20.333333333333314"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="0J5-m0-Hks" firstAttribute="width" secondItem="n4D-oZ-Swy" secondAttribute="width" multiplier="0.3" id="KKE-BI-daU"/>
+                        <constraint firstItem="iSM-jh-3l4" firstAttribute="centerX" secondItem="0J5-m0-Hks" secondAttribute="centerX" id="KXV-7e-HLS"/>
+                        <constraint firstItem="iSM-jh-3l4" firstAttribute="top" secondItem="0J5-m0-Hks" secondAttribute="bottom" constant="20" id="Kzq-h3-Abw"/>
+                        <constraint firstItem="iSM-jh-3l4" firstAttribute="width" secondItem="0J5-m0-Hks" secondAttribute="width" multiplier="1.4" id="ZBV-2G-x0g"/>
+                        <constraint firstItem="0J5-m0-Hks" firstAttribute="centerX" secondItem="n4D-oZ-Swy" secondAttribute="centerX" id="eFe-EW-9B9"/>
+                        <constraint firstItem="0J5-m0-Hks" firstAttribute="centerY" secondItem="n4D-oZ-Swy" secondAttribute="centerY" constant="-50" id="omH-dK-Fbb"/>
+                    </constraints>
+                </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Ntq-n8-Y5U" secondAttribute="trailing" constant="12" id="0X6-iD-wDG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="n4D-oZ-Swy" secondAttribute="trailing" id="Adn-On-tnl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="n4D-oZ-Swy" secondAttribute="bottom" id="Nzs-MG-QDc"/>
+                <constraint firstItem="Ntq-n8-Y5U" firstAttribute="top" secondItem="Oj8-RH-Jpa" secondAttribute="bottom" id="Qgi-f6-hh6"/>
                 <constraint firstItem="Oj8-RH-Jpa" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="SC3-Lg-UFm"/>
                 <constraint firstItem="Oj8-RH-Jpa" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="50 / 673" id="VsA-Fe-U6Q"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Ntq-n8-Y5U" secondAttribute="bottom" id="afa-NB-LHo"/>
+                <constraint firstItem="n4D-oZ-Swy" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="hEJ-Wy-wFQ"/>
+                <constraint firstItem="Ntq-n8-Y5U" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="i30-hE-ei5"/>
                 <constraint firstItem="Oj8-RH-Jpa" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="r75-Gg-Luk"/>
                 <constraint firstItem="Oj8-RH-Jpa" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="ucK-q3-mrY"/>
+                <constraint firstItem="n4D-oZ-Swy" firstAttribute="top" secondItem="Oj8-RH-Jpa" secondAttribute="bottom" id="xB0-cH-gYa"/>
             </constraints>
-            <point key="canvasLocation" x="-16" y="-11"/>
+            <point key="canvasLocation" x="-16.030534351145036" y="-11.267605633802818"/>
         </view>
     </objects>
+    <resources>
+        <image name="errorIconLight.png" width="33" height="33.666667938232422"/>
+    </resources>
 </document>

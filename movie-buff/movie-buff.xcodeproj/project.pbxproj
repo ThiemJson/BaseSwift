@@ -313,6 +313,21 @@
 		49237358EFD4BD258C527226 /* Pods_movie_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CBDA935BAD3C6E21B1246D /* Pods_movie_dev.framework */; };
 		7C6C01CD1D1CC0390C1DE234 /* Pods_movie_stag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87004784D53311647236775 /* Pods_movie_stag.framework */; };
 		C2F2A298541B7C72E936B892 /* Pods_movie_prod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA78376866914CBEFCDA605E /* Pods_movie_prod.framework */; };
+		F82A003D29FBABB900BC9A94 /* BasePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A003B29FBABB900BC9A94 /* BasePageView.swift */; };
+		F82A003E29FBABB900BC9A94 /* BasePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A003B29FBABB900BC9A94 /* BasePageView.swift */; };
+		F82A003F29FBABB900BC9A94 /* BasePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A003B29FBABB900BC9A94 /* BasePageView.swift */; };
+		F82A004029FBABB900BC9A94 /* BasePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82A003C29FBABB900BC9A94 /* BasePageView.xib */; };
+		F82A004129FBABB900BC9A94 /* BasePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82A003C29FBABB900BC9A94 /* BasePageView.xib */; };
+		F82A004229FBABB900BC9A94 /* BasePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82A003C29FBABB900BC9A94 /* BasePageView.xib */; };
+		F82A004429FBABE300BC9A94 /* SegmentPV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A004329FBABE300BC9A94 /* SegmentPV.swift */; };
+		F82A004529FBABE300BC9A94 /* SegmentPV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A004329FBABE300BC9A94 /* SegmentPV.swift */; };
+		F82A004629FBABE300BC9A94 /* SegmentPV.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A004329FBABE300BC9A94 /* SegmentPV.swift */; };
+		F82A004829FBABFE00BC9A94 /* SegmentPV.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82A004729FBABFE00BC9A94 /* SegmentPV.xib */; };
+		F82A004929FBABFE00BC9A94 /* SegmentPV.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82A004729FBABFE00BC9A94 /* SegmentPV.xib */; };
+		F82A004A29FBABFE00BC9A94 /* SegmentPV.xib in Resources */ = {isa = PBXBuildFile; fileRef = F82A004729FBABFE00BC9A94 /* SegmentPV.xib */; };
+		F82A004C29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A004B29FBCCB200BC9A94 /* FavoriteDashboardVM.swift */; };
+		F82A004D29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A004B29FBCCB200BC9A94 /* FavoriteDashboardVM.swift */; };
+		F82A004E29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A004B29FBCCB200BC9A94 /* FavoriteDashboardVM.swift */; };
 		F8638C4E29F7ADFE0091E801 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8638C4D29F7ADFE0091E801 /* Notification+Extensions.swift */; };
 		F8638C4F29F7ADFE0091E801 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8638C4D29F7ADFE0091E801 /* Notification+Extensions.swift */; };
 		F8638C5029F7ADFE0091E801 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8638C4D29F7ADFE0091E801 /* Notification+Extensions.swift */; };
@@ -355,6 +370,15 @@
 		F8638CA529F7DB8A0091E801 /* BaseViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8638CA229F7DB8A0091E801 /* BaseViewModelController.swift */; };
 		F8CAA18829FA6CBF00300631 /* BaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8638C8129F7CB770091E801 /* BaseAuthService.swift */; };
 		F8CAA18929FA6CBF00300631 /* BaseAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8638C8129F7CB770091E801 /* BaseAuthService.swift */; };
+		F8EBC05A29FB5DE300701BB6 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBC05929FB5DE300701BB6 /* UICollectionView+Extension.swift */; };
+		F8EBC05B29FB5DE300701BB6 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBC05929FB5DE300701BB6 /* UICollectionView+Extension.swift */; };
+		F8EBC05C29FB5DE300701BB6 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBC05929FB5DE300701BB6 /* UICollectionView+Extension.swift */; };
+		F8EBC06C29FB7BAD00701BB6 /* BaseLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBC06A29FB7BAD00701BB6 /* BaseLoadingCell.swift */; };
+		F8EBC06D29FB7BAD00701BB6 /* BaseLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBC06A29FB7BAD00701BB6 /* BaseLoadingCell.swift */; };
+		F8EBC06E29FB7BAD00701BB6 /* BaseLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EBC06A29FB7BAD00701BB6 /* BaseLoadingCell.swift */; };
+		F8EBC06F29FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EBC06B29FB7BAD00701BB6 /* BaseLoadingCell.xib */; };
+		F8EBC07029FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EBC06B29FB7BAD00701BB6 /* BaseLoadingCell.xib */; };
+		F8EBC07129FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8EBC06B29FB7BAD00701BB6 /* BaseLoadingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -494,6 +518,11 @@
 		C87004784D53311647236775 /* Pods_movie_stag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movie_stag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08061A5A69010ADB1319BB7 /* Pods-movie-prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie-prod.debug.xcconfig"; path = "Target Support Files/Pods-movie-prod/Pods-movie-prod.debug.xcconfig"; sourceTree = "<group>"; };
 		E8CBDA935BAD3C6E21B1246D /* Pods_movie_dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_movie_dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82A003B29FBABB900BC9A94 /* BasePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePageView.swift; sourceTree = "<group>"; };
+		F82A003C29FBABB900BC9A94 /* BasePageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasePageView.xib; sourceTree = "<group>"; };
+		F82A004329FBABE300BC9A94 /* SegmentPV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentPV.swift; sourceTree = "<group>"; };
+		F82A004729FBABFE00BC9A94 /* SegmentPV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentPV.xib; sourceTree = "<group>"; };
+		F82A004B29FBCCB200BC9A94 /* FavoriteDashboardVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteDashboardVM.swift; sourceTree = "<group>"; };
 		F8638C4D29F7ADFE0091E801 /* Notification+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification+Extensions.swift"; sourceTree = "<group>"; };
 		F8638C5129F7AEA90091E801 /* BaseLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLoading.swift; sourceTree = "<group>"; };
 		F8638C5529F7BCE70091E801 /* KeychainUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainUtils.swift; sourceTree = "<group>"; };
@@ -508,6 +537,9 @@
 		F8638C8329F7CF700091E801 /* BaseLoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLoginModel.swift; sourceTree = "<group>"; };
 		F8638C9E29F7D9850091E801 /* DemoLoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLoginVM.swift; sourceTree = "<group>"; };
 		F8638CA229F7DB8A0091E801 /* BaseViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelController.swift; sourceTree = "<group>"; };
+		F8EBC05929FB5DE300701BB6 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		F8EBC06A29FB7BAD00701BB6 /* BaseLoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLoadingCell.swift; sourceTree = "<group>"; };
+		F8EBC06B29FB7BAD00701BB6 /* BaseLoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseLoadingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -625,8 +657,10 @@
 		3C451B0429FABA92003E9098 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
+				F8EBC07229FB805A00701BB6 /* PageView */,
 				3C451B1F29FABBAD003E9098 /* FavoriteDashboardVC.swift */,
 				3C451B2029FABBAD003E9098 /* FavoriteDashboardVC.xib */,
+				F82A004B29FBCCB200BC9A94 /* FavoriteDashboardVM.swift */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
@@ -775,6 +809,8 @@
 		3C7ABF6029F6E74A007F4AB4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F8EBC07329FB817900701BB6 /* BasePageView */,
+				F8EBC06929FB7B1A00701BB6 /* BaseLoadingCell */,
 				3C7ABF6129F6E74A007F4AB4 /* BaseText.swift */,
 				3C7ABF6229F6E74A007F4AB4 /* BaseUtils.swift */,
 				3C7ABF6329F6E74A007F4AB4 /* BaseColor.swift */,
@@ -828,6 +864,7 @@
 				3C7ABF8D29F6E7A6007F4AB4 /* UIViewController+Extensions.swift */,
 				3C7ABF8929F6E7A5007F4AB4 /* ViewController+Extension.swift */,
 				3C451B6A29FACE7A003E9098 /* UITableView+Extension.swift */,
+				F8EBC05929FB5DE300701BB6 /* UICollectionView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -853,6 +890,7 @@
 		3C7ABF6829F6E74A007F4AB4 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F82A003A29FBAB8300BC9A94 /* SegmentPV */,
 				3C451B7229FAD8E3003E9098 /* Search */,
 				3C451B5829FAC3FE003E9098 /* NavBar */,
 				3C451B4329FAC158003E9098 /* Setting  */,
@@ -964,6 +1002,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F82A003A29FBAB8300BC9A94 /* SegmentPV */ = {
+			isa = PBXGroup;
+			children = (
+				F82A004329FBABE300BC9A94 /* SegmentPV.swift */,
+				F82A004729FBABFE00BC9A94 /* SegmentPV.xib */,
+			);
+			path = SegmentPV;
+			sourceTree = "<group>";
+		};
 		F8638C5A29F7BF7D0091E801 /* Logger */ = {
 			isa = PBXGroup;
 			children = (
@@ -1016,6 +1063,31 @@
 				3C187AE429F823AA009F7A0B /* DemoLoginVC.xib */,
 			);
 			path = DemoLoginVC;
+			sourceTree = "<group>";
+		};
+		F8EBC06929FB7B1A00701BB6 /* BaseLoadingCell */ = {
+			isa = PBXGroup;
+			children = (
+				F8EBC06A29FB7BAD00701BB6 /* BaseLoadingCell.swift */,
+				F8EBC06B29FB7BAD00701BB6 /* BaseLoadingCell.xib */,
+			);
+			path = BaseLoadingCell;
+			sourceTree = "<group>";
+		};
+		F8EBC07229FB805A00701BB6 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		F8EBC07329FB817900701BB6 /* BasePageView */ = {
+			isa = PBXGroup;
+			children = (
+				F82A003B29FBABB900BC9A94 /* BasePageView.swift */,
+				F82A003C29FBABB900BC9A94 /* BasePageView.xib */,
+			);
+			path = BasePageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1171,12 +1243,15 @@
 				3C7AC08929F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */,
 				3C451B0C29FABB58003E9098 /* MovieDashboardVC.xib in Resources */,
 				3C451B7829FAD902003E9098 /* SearchDasboardVC.xib in Resources */,
+				F82A004029FBABB900BC9A94 /* BasePageView.xib in Resources */,
 				3C451B8E29FADC08003E9098 /* SearchBar.xib in Resources */,
+				F82A004829FBABFE00BC9A94 /* SegmentPV.xib in Resources */,
 				3C451B6729FACA68003E9098 /* SettingCell.xib in Resources */,
 				3C187AFF29F824F6009F7A0B /* DemoDashboardVC.xib in Resources */,
 				3C7AC08629F6FB7C007F4AB4 /* movie-buff-stag-Info.plist in Resources */,
 				3C451B2429FABBAD003E9098 /* FavoriteDashboardVC.xib in Resources */,
 				3C451B5529FAC24D003E9098 /* SettingDashboardVC.xib in Resources */,
+				F8EBC06F29FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */,
 				3C451B2C29FABBCC003E9098 /* TVShowDashboardVC.xib in Resources */,
 				3C7ABF0429F6DD8B007F4AB4 /* LaunchScreen.storyboard in Resources */,
 				3C187B2929F85105009F7A0B /* Localizable.strings in Resources */,
@@ -1213,12 +1288,15 @@
 				3C7AC08A29F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */,
 				3C451B0D29FABB58003E9098 /* MovieDashboardVC.xib in Resources */,
 				3C451B7929FAD902003E9098 /* SearchDasboardVC.xib in Resources */,
+				F82A004129FBABB900BC9A94 /* BasePageView.xib in Resources */,
 				3C451B8F29FADC08003E9098 /* SearchBar.xib in Resources */,
+				F82A004929FBABFE00BC9A94 /* SegmentPV.xib in Resources */,
 				3C451B6829FACA68003E9098 /* SettingCell.xib in Resources */,
 				3C187B0029F824F6009F7A0B /* DemoDashboardVC.xib in Resources */,
 				3C7AC08729F6FB7C007F4AB4 /* movie-buff-stag-Info.plist in Resources */,
 				3C451B2529FABBAD003E9098 /* FavoriteDashboardVC.xib in Resources */,
 				3C451B5629FAC24D003E9098 /* SettingDashboardVC.xib in Resources */,
+				F8EBC07029FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */,
 				3C451B2D29FABBCC003E9098 /* TVShowDashboardVC.xib in Resources */,
 				3C7ABF2E29F6DDE0007F4AB4 /* LaunchScreen.storyboard in Resources */,
 				3C187B2A29F85105009F7A0B /* Localizable.strings in Resources */,
@@ -1241,12 +1319,15 @@
 				3C7AC08B29F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */,
 				3C451B0E29FABB58003E9098 /* MovieDashboardVC.xib in Resources */,
 				3C451B7A29FAD902003E9098 /* SearchDasboardVC.xib in Resources */,
+				F82A004229FBABB900BC9A94 /* BasePageView.xib in Resources */,
 				3C451B9029FADC08003E9098 /* SearchBar.xib in Resources */,
+				F82A004A29FBABFE00BC9A94 /* SegmentPV.xib in Resources */,
 				3C451B6929FACA68003E9098 /* SettingCell.xib in Resources */,
 				3C187B0129F824F6009F7A0B /* DemoDashboardVC.xib in Resources */,
 				3C7AC08829F6FB7C007F4AB4 /* movie-buff-stag-Info.plist in Resources */,
 				3C451B2629FABBAD003E9098 /* FavoriteDashboardVC.xib in Resources */,
 				3C451B5729FAC24D003E9098 /* SettingDashboardVC.xib in Resources */,
+				F8EBC07129FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */,
 				3C451B2E29FABBCC003E9098 /* TVShowDashboardVC.xib in Resources */,
 				3C7ABF3D29F6DDEA007F4AB4 /* LaunchScreen.storyboard in Resources */,
 				3C187B2B29F85105009F7A0B /* Localizable.strings in Resources */,
@@ -1387,6 +1468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82A003D29FBABB900BC9A94 /* BasePageView.swift in Sources */,
 				3C7ABFE229F6E7A7007F4AB4 /* UIBarButtonItem+Extension.swift in Sources */,
 				3C7ABFF429F6E7A7007F4AB4 /* UINavigationController+Extensions.swift in Sources */,
 				3C451B7C29FAD90D003E9098 /* SearchDasboardVM.swift in Sources */,
@@ -1421,6 +1503,7 @@
 				3C7ABFB829F6E7A7007F4AB4 /* AVPlayer+Ext.swift in Sources */,
 				F8638C7229F7BF7F0091E801 /* BaseResponse.swift in Sources */,
 				3C187ADC29F81BD4009F7A0B /* BaseRegistrationModel.swift in Sources */,
+				F82A004C29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
 				3C7AC02F29F6EA5A007F4AB4 /* Localizable.swift in Sources */,
 				F8638C8229F7CB770091E801 /* BaseAuthService.swift in Sources */,
 				3C187AD829F8173A009F7A0B /* HelperUtils.swift in Sources */,
@@ -1432,9 +1515,11 @@
 				3C7ABFBB29F6E7A7007F4AB4 /* Switch+Extension.swift in Sources */,
 				3C451B9429FAE0FF003E9098 /* SearchCell.swift in Sources */,
 				3C451B5229FAC24D003E9098 /* SettingDashboardVC.swift in Sources */,
+				F82A004429FBABE300BC9A94 /* SegmentPV.swift in Sources */,
 				3C187AE529F823AA009F7A0B /* DemoLoginVC.swift in Sources */,
 				3C451B3129FABBDC003E9098 /* TrackingDashboardVC.swift in Sources */,
 				F8638C6F29F7BF7F0091E801 /* BaseModel.swift in Sources */,
+				F8EBC06C29FB7BAD00701BB6 /* BaseLoadingCell.swift in Sources */,
 				3C7ABFAC29F6E7A7007F4AB4 /* TabbarController+Extension.swift in Sources */,
 				3C451B3C29FABEE9003E9098 /* BaseIcon.swift in Sources */,
 				3C451B6F29FAD3F7003E9098 /* BaseFont.swift in Sources */,
@@ -1453,6 +1538,7 @@
 				3C7ABFB529F6E7A7007F4AB4 /* PaddingLabelExtension.swift in Sources */,
 				3C7ABFF129F6E7A7007F4AB4 /* UIEdgeInsets+Extensions.swift in Sources */,
 				3C187AFC29F824F6009F7A0B /* DemoDashboardVC.swift in Sources */,
+				F8EBC05A29FB5DE300701BB6 /* UICollectionView+Extension.swift in Sources */,
 				3C451B7529FAD902003E9098 /* SearchDasboardVC.swift in Sources */,
 				3C7AC03F29F6EB91007F4AB4 /* HexRGBConverterUtils.swift in Sources */,
 				3C7ABFDF29F6E7A7007F4AB4 /* Textfield+Extension.swift in Sources */,
@@ -1504,6 +1590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82A003E29FBABB900BC9A94 /* BasePageView.swift in Sources */,
 				3C7ABFE329F6E7A7007F4AB4 /* UIBarButtonItem+Extension.swift in Sources */,
 				3C187AE129F81CB8009F7A0B /* BaseAuthModel.swift in Sources */,
 				3C451B7D29FAD90D003E9098 /* SearchDasboardVM.swift in Sources */,
@@ -1538,6 +1625,7 @@
 				3C7AC03829F6EB36007F4AB4 /* TimeConvertUtils.swift in Sources */,
 				3C187AE629F823AA009F7A0B /* DemoLoginVC.swift in Sources */,
 				3C7ABFCB29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
+				F82A004D29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
 				3C7ABF9829F6E7A7007F4AB4 /* Data+Extension.swift in Sources */,
 				3C7ABFB929F6E7A7007F4AB4 /* AVPlayer+Ext.swift in Sources */,
 				F8638C7329F7BF7F0091E801 /* BaseResponse.swift in Sources */,
@@ -1549,9 +1637,11 @@
 				3C7ABFEF29F6E7A7007F4AB4 /* UILabel+Extensions.swift in Sources */,
 				3C451B9529FAE0FF003E9098 /* SearchCell.swift in Sources */,
 				3C451B5329FAC24D003E9098 /* SettingDashboardVC.swift in Sources */,
+				F82A004529FBABE300BC9A94 /* SegmentPV.swift in Sources */,
 				3C7ABFBF29F6E7A7007F4AB4 /* String+Extension.swift in Sources */,
 				3C451B3229FABBDC003E9098 /* TrackingDashboardVC.swift in Sources */,
 				3C7ABFBC29F6E7A7007F4AB4 /* Switch+Extension.swift in Sources */,
+				F8EBC06D29FB7BAD00701BB6 /* BaseLoadingCell.swift in Sources */,
 				F8638C7029F7BF7F0091E801 /* BaseModel.swift in Sources */,
 				3C451B3D29FABEE9003E9098 /* BaseIcon.swift in Sources */,
 				3C451B7029FAD3F7003E9098 /* BaseFont.swift in Sources */,
@@ -1570,6 +1660,7 @@
 				3C7ABFB629F6E7A7007F4AB4 /* PaddingLabelExtension.swift in Sources */,
 				3C7ABFF229F6E7A7007F4AB4 /* UIEdgeInsets+Extensions.swift in Sources */,
 				3C7AC04029F6EB91007F4AB4 /* HexRGBConverterUtils.swift in Sources */,
+				F8EBC05B29FB5DE300701BB6 /* UICollectionView+Extension.swift in Sources */,
 				3C451B7629FAD902003E9098 /* SearchDasboardVC.swift in Sources */,
 				F8CAA18829FA6CBF00300631 /* BaseAuthService.swift in Sources */,
 				3C7ABFE029F6E7A7007F4AB4 /* Textfield+Extension.swift in Sources */,
@@ -1604,6 +1695,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F82A003F29FBABB900BC9A94 /* BasePageView.swift in Sources */,
 				3C7ABFE429F6E7A7007F4AB4 /* UIBarButtonItem+Extension.swift in Sources */,
 				3C187AE229F81CB8009F7A0B /* BaseAuthModel.swift in Sources */,
 				3C451B7E29FAD90D003E9098 /* SearchDasboardVM.swift in Sources */,
@@ -1638,6 +1730,7 @@
 				3C7AC03929F6EB36007F4AB4 /* TimeConvertUtils.swift in Sources */,
 				3C187AE729F823AA009F7A0B /* DemoLoginVC.swift in Sources */,
 				3C7ABFCC29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
+				F82A004E29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
 				3C7ABF9929F6E7A7007F4AB4 /* Data+Extension.swift in Sources */,
 				3C7ABFBA29F6E7A7007F4AB4 /* AVPlayer+Ext.swift in Sources */,
 				F8638C7429F7BF7F0091E801 /* BaseResponse.swift in Sources */,
@@ -1649,9 +1742,11 @@
 				3C7ABFF029F6E7A7007F4AB4 /* UILabel+Extensions.swift in Sources */,
 				3C451B9629FAE0FF003E9098 /* SearchCell.swift in Sources */,
 				3C451B5429FAC24D003E9098 /* SettingDashboardVC.swift in Sources */,
+				F82A004629FBABE300BC9A94 /* SegmentPV.swift in Sources */,
 				3C7ABFC029F6E7A7007F4AB4 /* String+Extension.swift in Sources */,
 				3C451B3329FABBDC003E9098 /* TrackingDashboardVC.swift in Sources */,
 				3C7ABFBD29F6E7A7007F4AB4 /* Switch+Extension.swift in Sources */,
+				F8EBC06E29FB7BAD00701BB6 /* BaseLoadingCell.swift in Sources */,
 				F8638C7129F7BF7F0091E801 /* BaseModel.swift in Sources */,
 				3C451B3E29FABEE9003E9098 /* BaseIcon.swift in Sources */,
 				3C451B7129FAD3F7003E9098 /* BaseFont.swift in Sources */,
@@ -1670,6 +1765,7 @@
 				3C7ABFB729F6E7A7007F4AB4 /* PaddingLabelExtension.swift in Sources */,
 				3C7ABFF329F6E7A7007F4AB4 /* UIEdgeInsets+Extensions.swift in Sources */,
 				3C7AC04129F6EB91007F4AB4 /* HexRGBConverterUtils.swift in Sources */,
+				F8EBC05C29FB5DE300701BB6 /* UICollectionView+Extension.swift in Sources */,
 				3C451B7729FAD902003E9098 /* SearchDasboardVC.swift in Sources */,
 				F8CAA18929FA6CBF00300631 /* BaseAuthService.swift in Sources */,
 				3C7ABFE129F6E7A7007F4AB4 /* Textfield+Extension.swift in Sources */,

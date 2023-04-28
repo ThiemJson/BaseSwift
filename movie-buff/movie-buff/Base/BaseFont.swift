@@ -12,6 +12,9 @@ import UIKit
 struct BaseFont {
     
     struct System {
+        static var text_ulltrathin : UIFont     { UIFont.systemFont(ofSize: HelperUtils.isPad ? 16 : 14, weight: .ultraLight) }
+        static var text_thin : UIFont           { UIFont.systemFont(ofSize: HelperUtils.isPad ? 16 : 14, weight: .thin) }
+        static var text_regular_subcr : UIFont  { UIFont.systemFont(ofSize: HelperUtils.isPad ? 14 : 12, weight: .regular) }
         static var text_regular : UIFont        { UIFont.systemFont(ofSize: HelperUtils.isPad ? 16 : 14, weight: .regular) }
         static var text_semibold : UIFont       { UIFont.systemFont(ofSize: HelperUtils.isPad ? 16 : 14, weight: .semibold) }
         static var text_bold : UIFont           { UIFont.systemFont(ofSize: HelperUtils.isPad ? 16 : 14, weight: .bold) }

@@ -29,6 +29,10 @@ open class BaseViewController: UIViewController {
     
     open var backgroundTaskID                       : UIBackgroundTaskIdentifier?
     
+    open var refreshControl                         = UIRefreshControl()
+    
+    var baseLoadingCell                             : BaseLoadingCell?
+    
     private var _keyboardHeight                     : CGFloat = 0
     
     open var keyboardHeight: CGFloat {
