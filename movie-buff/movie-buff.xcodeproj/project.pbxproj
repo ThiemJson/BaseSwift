@@ -223,6 +223,9 @@
 		3C451C1829FCD20C003E9098 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0E29FCD20C003E9098 /* OFL.txt */; };
 		3C451C1929FCD20C003E9098 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0E29FCD20C003E9098 /* OFL.txt */; };
 		3C451C1A29FCD20C003E9098 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0E29FCD20C003E9098 /* OFL.txt */; };
+		3C451C2229FCDF4E003E9098 /* BasePageViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451C2129FCDF4E003E9098 /* BasePageViewModelController.swift */; };
+		3C451C2329FCDF4E003E9098 /* BasePageViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451C2129FCDF4E003E9098 /* BasePageViewModelController.swift */; };
+		3C451C2429FCDF4E003E9098 /* BasePageViewModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451C2129FCDF4E003E9098 /* BasePageViewModelController.swift */; };
 		3C7ABEF829F6DD8A007F4AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ABEF729F6DD8A007F4AB4 /* AppDelegate.swift */; };
 		3C7ABF0129F6DD8B007F4AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ABF0029F6DD8B007F4AB4 /* Assets.xcassets */; };
 		3C7ABF0429F6DD8B007F4AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ABF0229F6DD8B007F4AB4 /* LaunchScreen.storyboard */; };
@@ -565,6 +568,7 @@
 		3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		3C451C0E29FCD20C003E9098 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		3C451C2129FCDF4E003E9098 /* BasePageViewModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePageViewModelController.swift; sourceTree = "<group>"; };
 		3C7ABEF429F6DD8A007F4AB4 /* movie-prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie-prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7ABEF729F6DD8A007F4AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7ABF0029F6DD8B007F4AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -916,11 +920,7 @@
 		3C451BC229FCD0FA003E9098 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				3C451C1B29FCD215003E9098 /* static */,
-				3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */,
-				3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */,
-				3C451C0E29FCD20C003E9098 /* OFL.txt */,
-				3C451C0B29FCD20C003E9098 /* README.txt */,
+				3C451C1C29FCDC71003E9098 /* LibreFranklin */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -948,6 +948,18 @@
 				3C451BC329FCD1EE003E9098 /* LibreFranklin-ThinItalic.ttf */,
 			);
 			path = static;
+			sourceTree = "<group>";
+		};
+		3C451C1C29FCDC71003E9098 /* LibreFranklin */ = {
+			isa = PBXGroup;
+			children = (
+				3C451C1B29FCD215003E9098 /* static */,
+				3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */,
+				3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */,
+				3C451C0E29FCD20C003E9098 /* OFL.txt */,
+				3C451C0B29FCD20C003E9098 /* README.txt */,
+			);
+			path = LibreFranklin;
 			sourceTree = "<group>";
 		};
 		3C7ABEEB29F6DD8A007F4AB4 = {
@@ -1025,6 +1037,7 @@
 				3C451B3B29FABEE9003E9098 /* BaseIcon.swift */,
 				3C451B3F29FABF45003E9098 /* BaseImage.swift */,
 				3C451B6E29FAD3F7003E9098 /* BaseFont.swift */,
+				3C451C2129FCDF4E003E9098 /* BasePageViewModelController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -1772,6 +1785,7 @@
 				3C7ABFCA29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
 				3C7ABF9729F6E7A7007F4AB4 /* Data+Extension.swift in Sources */,
 				3C7ABFB829F6E7A7007F4AB4 /* AVPlayer+Ext.swift in Sources */,
+				3C451C2229FCDF4E003E9098 /* BasePageViewModelController.swift in Sources */,
 				F8638C7229F7BF7F0091E801 /* BaseResponse.swift in Sources */,
 				3C187ADC29F81BD4009F7A0B /* BaseRegistrationModel.swift in Sources */,
 				F82A004C29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
@@ -1900,6 +1914,7 @@
 				3C7ABFC829F6E7A7007F4AB4 /* Date+Extension.swift in Sources */,
 				3C7AC06929F6EC8C007F4AB4 /* PingManager.swift in Sources */,
 				3C7AC03829F6EB36007F4AB4 /* TimeConvertUtils.swift in Sources */,
+				3C451C2329FCDF4E003E9098 /* BasePageViewModelController.swift in Sources */,
 				3C187AE629F823AA009F7A0B /* DemoLoginVC.swift in Sources */,
 				3C7ABFCB29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
 				F82A004D29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
@@ -2011,6 +2026,7 @@
 				3C7ABFC929F6E7A7007F4AB4 /* Date+Extension.swift in Sources */,
 				3C7AC06A29F6EC8C007F4AB4 /* PingManager.swift in Sources */,
 				3C7AC03929F6EB36007F4AB4 /* TimeConvertUtils.swift in Sources */,
+				3C451C2429FCDF4E003E9098 /* BasePageViewModelController.swift in Sources */,
 				3C187AE729F823AA009F7A0B /* DemoLoginVC.swift in Sources */,
 				3C7ABFCC29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
 				F82A004E29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,

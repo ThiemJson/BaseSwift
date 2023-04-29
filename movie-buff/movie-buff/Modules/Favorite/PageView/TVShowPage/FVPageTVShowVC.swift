@@ -12,7 +12,7 @@ class FVPageTVShowVC: BaseViewModelController<FVPageTVShowVM> {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.view.backgroundColor   = .textSecondary
         // Do any additional setup after loading the view.
     }
 

@@ -8,10 +8,16 @@
 
 import Foundation
 /** `Define` */
-protocol FavoriteDashboardVM : BaseViewModel {}
+protocol FavoriteDashboardVM : BaseViewModel {
+    func fetchData()
+}
 
 /** `Implement function` */
-extension FavoriteDashboardVM {}
+extension FavoriteDashboardVM {
+    func fetchData() {
+        print("Fetch data")
+    }
+}
 
 /** `Implement Properties` */
 class FavoriteDashboardVMObject : BaseViewModelObject, FavoriteDashboardVM {}

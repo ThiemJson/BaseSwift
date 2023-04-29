@@ -17,7 +17,10 @@ enum SegmentSelected {
 }
 
 class SegmentPV: UIView {
-    static let nibName = "SegmentPV"
+    static let nibName      = "SegmentPV"
+    static let indexMapper  = [ SegmentSelected.item1 : 0,
+                                SegmentSelected.item2 : 1,
+                                SegmentSelected.item3 : 2 ]
     
     @IBOutlet var mainView              : UIView!
     @IBOutlet weak var vContentView     : UIView!

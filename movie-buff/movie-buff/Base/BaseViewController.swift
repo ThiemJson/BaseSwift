@@ -62,7 +62,6 @@ open class BaseViewController: UIViewController {
     
     private func initDefault() {
         self.hidesBottomBarWhenPushed   = false
-        self.view.backgroundColor       = .black
     }
     
     open override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -80,6 +79,11 @@ open class BaseViewController: UIViewController {
         if let titleBackButton = self.titleBackButton, titleBackButton != "" {
             self.backButton?.title = titleBackButton
         }
+    }
+    
+    open override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("ViewController ===> \(self.description)")
     }
     
     open override func viewWillDisappear(_ animated: Bool) {
@@ -103,7 +107,9 @@ open class BaseViewController: UIViewController {
     }
     
     /** `UI Configuration` */
-    open func setupUI() {}
+    open func setupUI() {
+        self.view.backgroundColor       = .black
+    }
     
     /** `Localizer` */
     open func setupLocalizer() {}

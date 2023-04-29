@@ -11,10 +11,16 @@ import RxCocoa
 import RxSwift
 
 /** `Define` */
-protocol FVPageTVShowVM : BaseViewModel {}
+protocol FVPageTVShowVM : BaseViewModel {
+    func fetch()
+}
 
 /** `Implement function` */
-extension FVPageTVShowVM {}
+extension FVPageTVShowVM {
+    func fetch() {
+        print("=======> Fetch")
+    }
+}
 
 /** `Implement Properties` */
 class FVPageTVShowVMObject : BaseViewModelObject, FVPageTVShowVM {}

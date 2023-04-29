@@ -41,7 +41,13 @@ class RootTabbarVC: UITabBarController {
         searchVC.tabBarItem.title = "SearchV"
         
         /** `Favorite` */
-        let favoriteVC = FavoriteDashboardVC(FavoriteDashboardVMObject()).embedInNavigationController()
+        let subVCs = [
+            FvPageMovieVC(FvPageMovieVMObject()),
+            FVPageTVShowVC(FVPageTVShowVMObject()),
+            FVPageActorVC(FVPageActorVMObject())
+        ]
+        let favoriteVC = FavoriteDashboardVC(FavoriteDashboardVMObject(),
+                                             subVCs).embedInNavigationController()
         favoriteVC.tabBarItem.title = "FavoriteVC"
         
         /** `Selfie` */
