@@ -72,9 +72,9 @@ class SegmentPV: UIView {
         self.lblItem1.textColor     = .white
         self.lblItem2.textColor     = .white
         self.lblItem3.textColor     = .white
-        self.lblItem1.font          = BaseFont.System.text_bold
-        self.lblItem2.font          = BaseFont.System.text_bold
-        self.lblItem3.font          = BaseFont.System.text_bold
+        self.lblItem1.font          = UIFont.mediumTitle
+        self.lblItem2.font          = UIFont.mediumTitle
+        self.lblItem3.font          = UIFont.mediumTitle
         
         /** `Item1` */
         self.vItem1

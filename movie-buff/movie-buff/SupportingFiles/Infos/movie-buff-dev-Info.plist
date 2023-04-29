@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict/>
+<dict>
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <key>UIAppFonts</key>
+    <array>
+        <string>LibreFranklin-Black.ttf</string>
+        <string>LibreFranklin-BlackItalic.ttf</string>
+        <string>LibreFranklin-Bold.ttf</string>
+        <string>LibreFranklin-ExtraBold.ttf</string>
+        <string>LibreFranklin-ExtraBoldItalic.ttf</string>
+        <string>LibreFranklin-ExtraLight.ttf</string>
+        <string>LibreFranklin-ExtraLightItalic.ttf</string>
+        <string>LibreFranklin-Light.ttf</string>
+        <string>LibreFranklin-Medium.ttf</string>
+        <string>LibreFranklin-Regular.ttf</string>
+        <string>LibreFranklin-SemiBold.ttf</string>
+        <string>LibreFranklin-Thin.ttf</string>
+        <string>LibreFranklin-ThinItalic.ttf</string>
+        <string>LibreFranklin-LightItalic.ttf</string>
+        <string>LibreFranklin-Italic.ttf</string>
+        <string>LibreFranklin-MediumItalic.ttf</string>
+        <string>LibreFranklin-SemiBoldItalic.ttf</string>
+        <string>LibreFranklin-BoldItalic.ttf</string>
+    </array>
+</dict>
 </plist>

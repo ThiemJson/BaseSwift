@@ -63,7 +63,7 @@ class SearchBar: UIView {
         
         /** `Text field` */
         self.tfContent.borderStyle          = .none
-        self.tfContent.font                 = BaseFont.System.text_semibold
+        self.tfContent.font                 = UIFont.medium
         self.tfContent.backgroundColor      = .clear
         self.tfContent.textColor            = .white
         self.tfContent.tintColor            = Constant.Color.hex_7A7A7A

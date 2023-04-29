@@ -130,6 +130,99 @@
 		3C451B9729FAE0FF003E9098 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451B9329FAE0FF003E9098 /* SearchCell.xib */; };
 		3C451B9829FAE0FF003E9098 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451B9329FAE0FF003E9098 /* SearchCell.xib */; };
 		3C451B9929FAE0FF003E9098 /* SearchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451B9329FAE0FF003E9098 /* SearchCell.xib */; };
+		3C451B9D29FCCC89003E9098 /* FvPageMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451B9B29FCCC89003E9098 /* FvPageMovieVC.swift */; };
+		3C451B9E29FCCC89003E9098 /* FvPageMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451B9B29FCCC89003E9098 /* FvPageMovieVC.swift */; };
+		3C451B9F29FCCC89003E9098 /* FvPageMovieVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451B9B29FCCC89003E9098 /* FvPageMovieVC.swift */; };
+		3C451BA029FCCC89003E9098 /* FvPageMovieVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451B9C29FCCC89003E9098 /* FvPageMovieVC.xib */; };
+		3C451BA129FCCC89003E9098 /* FvPageMovieVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451B9C29FCCC89003E9098 /* FvPageMovieVC.xib */; };
+		3C451BA229FCCC89003E9098 /* FvPageMovieVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451B9C29FCCC89003E9098 /* FvPageMovieVC.xib */; };
+		3C451BA829FCCCBF003E9098 /* FVPageActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BA629FCCCBF003E9098 /* FVPageActorVC.swift */; };
+		3C451BA929FCCCBF003E9098 /* FVPageActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BA629FCCCBF003E9098 /* FVPageActorVC.swift */; };
+		3C451BAA29FCCCBF003E9098 /* FVPageActorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BA629FCCCBF003E9098 /* FVPageActorVC.swift */; };
+		3C451BAB29FCCCBF003E9098 /* FVPageActorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BA729FCCCBF003E9098 /* FVPageActorVC.xib */; };
+		3C451BAC29FCCCBF003E9098 /* FVPageActorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BA729FCCCBF003E9098 /* FVPageActorVC.xib */; };
+		3C451BAD29FCCCBF003E9098 /* FVPageActorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BA729FCCCBF003E9098 /* FVPageActorVC.xib */; };
+		3C451BB029FCCCD1003E9098 /* FVPageTVShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BAE29FCCCD1003E9098 /* FVPageTVShowVC.swift */; };
+		3C451BB129FCCCD1003E9098 /* FVPageTVShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BAE29FCCCD1003E9098 /* FVPageTVShowVC.swift */; };
+		3C451BB229FCCCD1003E9098 /* FVPageTVShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BAE29FCCCD1003E9098 /* FVPageTVShowVC.swift */; };
+		3C451BB329FCCCD1003E9098 /* FVPageTVShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BAF29FCCCD1003E9098 /* FVPageTVShowVC.xib */; };
+		3C451BB429FCCCD1003E9098 /* FVPageTVShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BAF29FCCCD1003E9098 /* FVPageTVShowVC.xib */; };
+		3C451BB529FCCCD1003E9098 /* FVPageTVShowVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BAF29FCCCD1003E9098 /* FVPageTVShowVC.xib */; };
+		3C451BB729FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BB629FCCD21003E9098 /* FVPageTVShowVM.swift */; };
+		3C451BB829FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BB629FCCD21003E9098 /* FVPageTVShowVM.swift */; };
+		3C451BB929FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BB629FCCD21003E9098 /* FVPageTVShowVM.swift */; };
+		3C451BBB29FCD07C003E9098 /* FVPageActorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BBA29FCD07C003E9098 /* FVPageActorVM.swift */; };
+		3C451BBC29FCD07C003E9098 /* FVPageActorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BBA29FCD07C003E9098 /* FVPageActorVM.swift */; };
+		3C451BBD29FCD07C003E9098 /* FVPageActorVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BBA29FCD07C003E9098 /* FVPageActorVM.swift */; };
+		3C451BBF29FCD088003E9098 /* FvPageMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BBE29FCD088003E9098 /* FvPageMovieVM.swift */; };
+		3C451BC029FCD088003E9098 /* FvPageMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BBE29FCD088003E9098 /* FvPageMovieVM.swift */; };
+		3C451BC129FCD088003E9098 /* FvPageMovieVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C451BBE29FCD088003E9098 /* FvPageMovieVM.swift */; };
+		3C451BD529FCD1EF003E9098 /* LibreFranklin-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC329FCD1EE003E9098 /* LibreFranklin-ThinItalic.ttf */; };
+		3C451BD629FCD1EF003E9098 /* LibreFranklin-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC329FCD1EE003E9098 /* LibreFranklin-ThinItalic.ttf */; };
+		3C451BD729FCD1EF003E9098 /* LibreFranklin-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC329FCD1EE003E9098 /* LibreFranklin-ThinItalic.ttf */; };
+		3C451BD829FCD1EF003E9098 /* LibreFranklin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC429FCD1EE003E9098 /* LibreFranklin-Medium.ttf */; };
+		3C451BD929FCD1EF003E9098 /* LibreFranklin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC429FCD1EE003E9098 /* LibreFranklin-Medium.ttf */; };
+		3C451BDA29FCD1EF003E9098 /* LibreFranklin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC429FCD1EE003E9098 /* LibreFranklin-Medium.ttf */; };
+		3C451BDB29FCD1EF003E9098 /* LibreFranklin-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC529FCD1EE003E9098 /* LibreFranklin-ExtraBoldItalic.ttf */; };
+		3C451BDC29FCD1EF003E9098 /* LibreFranklin-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC529FCD1EE003E9098 /* LibreFranklin-ExtraBoldItalic.ttf */; };
+		3C451BDD29FCD1EF003E9098 /* LibreFranklin-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC529FCD1EE003E9098 /* LibreFranklin-ExtraBoldItalic.ttf */; };
+		3C451BDE29FCD1EF003E9098 /* LibreFranklin-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC629FCD1EE003E9098 /* LibreFranklin-LightItalic.ttf */; };
+		3C451BDF29FCD1EF003E9098 /* LibreFranklin-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC629FCD1EE003E9098 /* LibreFranklin-LightItalic.ttf */; };
+		3C451BE029FCD1EF003E9098 /* LibreFranklin-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC629FCD1EE003E9098 /* LibreFranklin-LightItalic.ttf */; };
+		3C451BE129FCD1EF003E9098 /* LibreFranklin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC729FCD1EE003E9098 /* LibreFranklin-Regular.ttf */; };
+		3C451BE229FCD1EF003E9098 /* LibreFranklin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC729FCD1EE003E9098 /* LibreFranklin-Regular.ttf */; };
+		3C451BE329FCD1EF003E9098 /* LibreFranklin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC729FCD1EE003E9098 /* LibreFranklin-Regular.ttf */; };
+		3C451BE429FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC829FCD1EE003E9098 /* LibreFranklin-SemiBoldItalic.ttf */; };
+		3C451BE529FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC829FCD1EE003E9098 /* LibreFranklin-SemiBoldItalic.ttf */; };
+		3C451BE629FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC829FCD1EE003E9098 /* LibreFranklin-SemiBoldItalic.ttf */; };
+		3C451BE729FCD1EF003E9098 /* LibreFranklin-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC929FCD1EE003E9098 /* LibreFranklin-Thin.ttf */; };
+		3C451BE829FCD1EF003E9098 /* LibreFranklin-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC929FCD1EE003E9098 /* LibreFranklin-Thin.ttf */; };
+		3C451BE929FCD1EF003E9098 /* LibreFranklin-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BC929FCD1EE003E9098 /* LibreFranklin-Thin.ttf */; };
+		3C451BEA29FCD1EF003E9098 /* LibreFranklin-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCA29FCD1EE003E9098 /* LibreFranklin-Light.ttf */; };
+		3C451BEB29FCD1EF003E9098 /* LibreFranklin-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCA29FCD1EE003E9098 /* LibreFranklin-Light.ttf */; };
+		3C451BEC29FCD1EF003E9098 /* LibreFranklin-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCA29FCD1EE003E9098 /* LibreFranklin-Light.ttf */; };
+		3C451BED29FCD1EF003E9098 /* LibreFranklin-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCB29FCD1EE003E9098 /* LibreFranklin-ExtraLight.ttf */; };
+		3C451BEE29FCD1EF003E9098 /* LibreFranklin-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCB29FCD1EE003E9098 /* LibreFranklin-ExtraLight.ttf */; };
+		3C451BEF29FCD1EF003E9098 /* LibreFranklin-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCB29FCD1EE003E9098 /* LibreFranklin-ExtraLight.ttf */; };
+		3C451BF029FCD1EF003E9098 /* LibreFranklin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCC29FCD1EE003E9098 /* LibreFranklin-Italic.ttf */; };
+		3C451BF129FCD1EF003E9098 /* LibreFranklin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCC29FCD1EE003E9098 /* LibreFranklin-Italic.ttf */; };
+		3C451BF229FCD1EF003E9098 /* LibreFranklin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCC29FCD1EE003E9098 /* LibreFranklin-Italic.ttf */; };
+		3C451BF329FCD1EF003E9098 /* LibreFranklin-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCD29FCD1EE003E9098 /* LibreFranklin-BlackItalic.ttf */; };
+		3C451BF429FCD1EF003E9098 /* LibreFranklin-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCD29FCD1EE003E9098 /* LibreFranklin-BlackItalic.ttf */; };
+		3C451BF529FCD1EF003E9098 /* LibreFranklin-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCD29FCD1EE003E9098 /* LibreFranklin-BlackItalic.ttf */; };
+		3C451BF629FCD1EF003E9098 /* LibreFranklin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCE29FCD1EE003E9098 /* LibreFranklin-BoldItalic.ttf */; };
+		3C451BF729FCD1EF003E9098 /* LibreFranklin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCE29FCD1EE003E9098 /* LibreFranklin-BoldItalic.ttf */; };
+		3C451BF829FCD1EF003E9098 /* LibreFranklin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCE29FCD1EE003E9098 /* LibreFranklin-BoldItalic.ttf */; };
+		3C451BF929FCD1EF003E9098 /* LibreFranklin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCF29FCD1EE003E9098 /* LibreFranklin-MediumItalic.ttf */; };
+		3C451BFA29FCD1EF003E9098 /* LibreFranklin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCF29FCD1EE003E9098 /* LibreFranklin-MediumItalic.ttf */; };
+		3C451BFB29FCD1EF003E9098 /* LibreFranklin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BCF29FCD1EE003E9098 /* LibreFranklin-MediumItalic.ttf */; };
+		3C451BFC29FCD1EF003E9098 /* LibreFranklin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD029FCD1EF003E9098 /* LibreFranklin-Bold.ttf */; };
+		3C451BFD29FCD1EF003E9098 /* LibreFranklin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD029FCD1EF003E9098 /* LibreFranklin-Bold.ttf */; };
+		3C451BFE29FCD1EF003E9098 /* LibreFranklin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD029FCD1EF003E9098 /* LibreFranklin-Bold.ttf */; };
+		3C451BFF29FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf */; };
+		3C451C0029FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf */; };
+		3C451C0129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf */; };
+		3C451C0229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf */; };
+		3C451C0329FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf */; };
+		3C451C0429FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf */; };
+		3C451C0529FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD329FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf */; };
+		3C451C0629FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD329FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf */; };
+		3C451C0729FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD329FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf */; };
+		3C451C0829FCD1EF003E9098 /* LibreFranklin-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD429FCD1EF003E9098 /* LibreFranklin-Black.ttf */; };
+		3C451C0929FCD1EF003E9098 /* LibreFranklin-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD429FCD1EF003E9098 /* LibreFranklin-Black.ttf */; };
+		3C451C0A29FCD1EF003E9098 /* LibreFranklin-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451BD429FCD1EF003E9098 /* LibreFranklin-Black.ttf */; };
+		3C451C0F29FCD20C003E9098 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0B29FCD20C003E9098 /* README.txt */; };
+		3C451C1029FCD20C003E9098 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0B29FCD20C003E9098 /* README.txt */; };
+		3C451C1129FCD20C003E9098 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0B29FCD20C003E9098 /* README.txt */; };
+		3C451C1229FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */; };
+		3C451C1329FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */; };
+		3C451C1429FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */; };
+		3C451C1529FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */; };
+		3C451C1629FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */; };
+		3C451C1729FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */; };
+		3C451C1829FCD20C003E9098 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0E29FCD20C003E9098 /* OFL.txt */; };
+		3C451C1929FCD20C003E9098 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0E29FCD20C003E9098 /* OFL.txt */; };
+		3C451C1A29FCD20C003E9098 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C451C0E29FCD20C003E9098 /* OFL.txt */; };
 		3C7ABEF829F6DD8A007F4AB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7ABEF729F6DD8A007F4AB4 /* AppDelegate.swift */; };
 		3C7ABF0129F6DD8B007F4AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ABF0029F6DD8B007F4AB4 /* Assets.xcassets */; };
 		3C7ABF0429F6DD8B007F4AB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ABF0229F6DD8B007F4AB4 /* LaunchScreen.storyboard */; };
@@ -441,6 +534,37 @@
 		3C451B8D29FADC08003E9098 /* SearchBar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBar.xib; sourceTree = "<group>"; };
 		3C451B9229FAE0FF003E9098 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		3C451B9329FAE0FF003E9098 /* SearchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCell.xib; sourceTree = "<group>"; };
+		3C451B9B29FCCC89003E9098 /* FvPageMovieVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FvPageMovieVC.swift; sourceTree = "<group>"; };
+		3C451B9C29FCCC89003E9098 /* FvPageMovieVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FvPageMovieVC.xib; sourceTree = "<group>"; };
+		3C451BA629FCCCBF003E9098 /* FVPageActorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVPageActorVC.swift; sourceTree = "<group>"; };
+		3C451BA729FCCCBF003E9098 /* FVPageActorVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FVPageActorVC.xib; sourceTree = "<group>"; };
+		3C451BAE29FCCCD1003E9098 /* FVPageTVShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVPageTVShowVC.swift; sourceTree = "<group>"; };
+		3C451BAF29FCCCD1003E9098 /* FVPageTVShowVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FVPageTVShowVC.xib; sourceTree = "<group>"; };
+		3C451BB629FCCD21003E9098 /* FVPageTVShowVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVPageTVShowVM.swift; sourceTree = "<group>"; };
+		3C451BBA29FCD07C003E9098 /* FVPageActorVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVPageActorVM.swift; sourceTree = "<group>"; };
+		3C451BBE29FCD088003E9098 /* FvPageMovieVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FvPageMovieVM.swift; sourceTree = "<group>"; };
+		3C451BC329FCD1EE003E9098 /* LibreFranklin-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3C451BC429FCD1EE003E9098 /* LibreFranklin-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Medium.ttf"; sourceTree = "<group>"; };
+		3C451BC529FCD1EE003E9098 /* LibreFranklin-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3C451BC629FCD1EE003E9098 /* LibreFranklin-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-LightItalic.ttf"; sourceTree = "<group>"; };
+		3C451BC729FCD1EE003E9098 /* LibreFranklin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Regular.ttf"; sourceTree = "<group>"; };
+		3C451BC829FCD1EE003E9098 /* LibreFranklin-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3C451BC929FCD1EE003E9098 /* LibreFranklin-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Thin.ttf"; sourceTree = "<group>"; };
+		3C451BCA29FCD1EE003E9098 /* LibreFranklin-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Light.ttf"; sourceTree = "<group>"; };
+		3C451BCB29FCD1EE003E9098 /* LibreFranklin-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3C451BCC29FCD1EE003E9098 /* LibreFranklin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Italic.ttf"; sourceTree = "<group>"; };
+		3C451BCD29FCD1EE003E9098 /* LibreFranklin-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3C451BCE29FCD1EE003E9098 /* LibreFranklin-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3C451BCF29FCD1EE003E9098 /* LibreFranklin-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3C451BD029FCD1EF003E9098 /* LibreFranklin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Bold.ttf"; sourceTree = "<group>"; };
+		3C451BD129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3C451BD229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-SemiBold.ttf"; sourceTree = "<group>"; };
+		3C451BD329FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3C451BD429FCD1EF003E9098 /* LibreFranklin-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Black.ttf"; sourceTree = "<group>"; };
+		3C451C0B29FCD20C003E9098 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LibreFranklin-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		3C451C0E29FCD20C003E9098 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		3C7ABEF429F6DD8A007F4AB4 /* movie-prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movie-prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7ABEF729F6DD8A007F4AB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C7ABF0029F6DD8B007F4AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -657,7 +781,7 @@
 		3C451B0429FABA92003E9098 /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
-				F8EBC07229FB805A00701BB6 /* PageView */,
+				3C451B9A29FCCC4D003E9098 /* PageView */,
 				3C451B1F29FABBAD003E9098 /* FavoriteDashboardVC.swift */,
 				3C451B2029FABBAD003E9098 /* FavoriteDashboardVC.xib */,
 				F82A004B29FBCCB200BC9A94 /* FavoriteDashboardVM.swift */,
@@ -747,6 +871,83 @@
 				3C451B9329FAE0FF003E9098 /* SearchCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		3C451B9A29FCCC4D003E9098 /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				3C451BA529FCCCA7003E9098 /* TVShowPage */,
+				3C451BA429FCCC9F003E9098 /* ActorPage */,
+				3C451BA329FCCC8C003E9098 /* MoviePage */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		3C451BA329FCCC8C003E9098 /* MoviePage */ = {
+			isa = PBXGroup;
+			children = (
+				3C451B9B29FCCC89003E9098 /* FvPageMovieVC.swift */,
+				3C451B9C29FCCC89003E9098 /* FvPageMovieVC.xib */,
+				3C451BBE29FCD088003E9098 /* FvPageMovieVM.swift */,
+			);
+			path = MoviePage;
+			sourceTree = "<group>";
+		};
+		3C451BA429FCCC9F003E9098 /* ActorPage */ = {
+			isa = PBXGroup;
+			children = (
+				3C451BA629FCCCBF003E9098 /* FVPageActorVC.swift */,
+				3C451BA729FCCCBF003E9098 /* FVPageActorVC.xib */,
+				3C451BBA29FCD07C003E9098 /* FVPageActorVM.swift */,
+			);
+			path = ActorPage;
+			sourceTree = "<group>";
+		};
+		3C451BA529FCCCA7003E9098 /* TVShowPage */ = {
+			isa = PBXGroup;
+			children = (
+				3C451BAE29FCCCD1003E9098 /* FVPageTVShowVC.swift */,
+				3C451BAF29FCCCD1003E9098 /* FVPageTVShowVC.xib */,
+				3C451BB629FCCD21003E9098 /* FVPageTVShowVM.swift */,
+			);
+			path = TVShowPage;
+			sourceTree = "<group>";
+		};
+		3C451BC229FCD0FA003E9098 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3C451C1B29FCD215003E9098 /* static */,
+				3C451C0C29FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf */,
+				3C451C0D29FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf */,
+				3C451C0E29FCD20C003E9098 /* OFL.txt */,
+				3C451C0B29FCD20C003E9098 /* README.txt */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		3C451C1B29FCD215003E9098 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				3C451BD429FCD1EF003E9098 /* LibreFranklin-Black.ttf */,
+				3C451BCD29FCD1EE003E9098 /* LibreFranklin-BlackItalic.ttf */,
+				3C451BD029FCD1EF003E9098 /* LibreFranklin-Bold.ttf */,
+				3C451BCE29FCD1EE003E9098 /* LibreFranklin-BoldItalic.ttf */,
+				3C451BD329FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf */,
+				3C451BC529FCD1EE003E9098 /* LibreFranklin-ExtraBoldItalic.ttf */,
+				3C451BCB29FCD1EE003E9098 /* LibreFranklin-ExtraLight.ttf */,
+				3C451BD129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf */,
+				3C451BCC29FCD1EE003E9098 /* LibreFranklin-Italic.ttf */,
+				3C451BCA29FCD1EE003E9098 /* LibreFranklin-Light.ttf */,
+				3C451BC629FCD1EE003E9098 /* LibreFranklin-LightItalic.ttf */,
+				3C451BC429FCD1EE003E9098 /* LibreFranklin-Medium.ttf */,
+				3C451BCF29FCD1EE003E9098 /* LibreFranklin-MediumItalic.ttf */,
+				3C451BC729FCD1EE003E9098 /* LibreFranklin-Regular.ttf */,
+				3C451BD229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf */,
+				3C451BC829FCD1EE003E9098 /* LibreFranklin-SemiBoldItalic.ttf */,
+				3C451BC929FCD1EE003E9098 /* LibreFranklin-Thin.ttf */,
+				3C451BC329FCD1EE003E9098 /* LibreFranklin-ThinItalic.ttf */,
+			);
+			path = static;
 			sourceTree = "<group>";
 		};
 		3C7ABEEB29F6DD8A007F4AB4 = {
@@ -872,6 +1073,7 @@
 		3C7ABF6629F6E74A007F4AB4 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				3C451BC229FCD0FA003E9098 /* Font */,
 				3C7ABFFA29F6E7C2007F4AB4 /* Colors.xcassets */,
 				3C7ABF0029F6DD8B007F4AB4 /* Assets.xcassets */,
 			);
@@ -1074,13 +1276,6 @@
 			path = BaseLoadingCell;
 			sourceTree = "<group>";
 		};
-		F8EBC07229FB805A00701BB6 /* PageView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PageView;
-			sourceTree = "<group>";
-		};
 		F8EBC07329FB817900701BB6 /* BasePageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -1238,27 +1433,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C451C0529FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf in Resources */,
 				3C7AC08129F6F89C007F4AB4 /* BSDemoVC.xib in Resources */,
+				3C451C0229FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf in Resources */,
+				3C451BDE29FCD1EF003E9098 /* LibreFranklin-LightItalic.ttf in Resources */,
+				3C451BFF29FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf in Resources */,
 				3C451B5E29FAC42D003E9098 /* NavBar.xib in Resources */,
+				3C451C0F29FCD20C003E9098 /* README.txt in Resources */,
 				3C7AC08929F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */,
 				3C451B0C29FABB58003E9098 /* MovieDashboardVC.xib in Resources */,
+				3C451BE729FCD1EF003E9098 /* LibreFranklin-Thin.ttf in Resources */,
 				3C451B7829FAD902003E9098 /* SearchDasboardVC.xib in Resources */,
+				3C451BF629FCD1EF003E9098 /* LibreFranklin-BoldItalic.ttf in Resources */,
 				F82A004029FBABB900BC9A94 /* BasePageView.xib in Resources */,
 				3C451B8E29FADC08003E9098 /* SearchBar.xib in Resources */,
+				3C451BD829FCD1EF003E9098 /* LibreFranklin-Medium.ttf in Resources */,
 				F82A004829FBABFE00BC9A94 /* SegmentPV.xib in Resources */,
 				3C451B6729FACA68003E9098 /* SettingCell.xib in Resources */,
 				3C187AFF29F824F6009F7A0B /* DemoDashboardVC.xib in Resources */,
 				3C7AC08629F6FB7C007F4AB4 /* movie-buff-stag-Info.plist in Resources */,
 				3C451B2429FABBAD003E9098 /* FavoriteDashboardVC.xib in Resources */,
 				3C451B5529FAC24D003E9098 /* SettingDashboardVC.xib in Resources */,
+				3C451C1229FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf in Resources */,
+				3C451BDB29FCD1EF003E9098 /* LibreFranklin-ExtraBoldItalic.ttf in Resources */,
+				3C451BAB29FCCCBF003E9098 /* FVPageActorVC.xib in Resources */,
+				3C451BEA29FCD1EF003E9098 /* LibreFranklin-Light.ttf in Resources */,
+				3C451BFC29FCD1EF003E9098 /* LibreFranklin-Bold.ttf in Resources */,
 				F8EBC06F29FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */,
 				3C451B2C29FABBCC003E9098 /* TVShowDashboardVC.xib in Resources */,
+				3C451C1829FCD20C003E9098 /* OFL.txt in Resources */,
+				3C451BF029FCD1EF003E9098 /* LibreFranklin-Italic.ttf in Resources */,
+				3C451C1529FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf in Resources */,
+				3C451BB329FCCCD1003E9098 /* FVPageTVShowVC.xib in Resources */,
+				3C451C0829FCD1EF003E9098 /* LibreFranklin-Black.ttf in Resources */,
+				3C451BD529FCD1EF003E9098 /* LibreFranklin-ThinItalic.ttf in Resources */,
+				3C451BF929FCD1EF003E9098 /* LibreFranklin-MediumItalic.ttf in Resources */,
 				3C7ABF0429F6DD8B007F4AB4 /* LaunchScreen.storyboard in Resources */,
+				3C451BED29FCD1EF003E9098 /* LibreFranklin-ExtraLight.ttf in Resources */,
 				3C187B2929F85105009F7A0B /* Localizable.strings in Resources */,
+				3C451BE129FCD1EF003E9098 /* LibreFranklin-Regular.ttf in Resources */,
+				3C451BF329FCD1EF003E9098 /* LibreFranklin-BlackItalic.ttf in Resources */,
 				3C451B3429FABBDC003E9098 /* TrackingDashboardVC.xib in Resources */,
 				3C7ABFFB29F6E7C2007F4AB4 /* Colors.xcassets in Resources */,
 				3C187AF229F8242D009F7A0B /* DemoSplashVC.xib in Resources */,
+				3C451BE429FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */,
 				3C7ABF0129F6DD8B007F4AB4 /* Assets.xcassets in Resources */,
+				3C451BA029FCCC89003E9098 /* FvPageMovieVC.xib in Resources */,
 				3C451B9729FAE0FF003E9098 /* SearchCell.xib in Resources */,
 				3C187AE829F823AA009F7A0B /* DemoLoginVC.xib in Resources */,
 				3C451B1C29FABB96003E9098 /* SelfieDashboardVC.xib in Resources */,
@@ -1283,27 +1503,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C451C0629FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf in Resources */,
 				3C7AC08229F6F89C007F4AB4 /* BSDemoVC.xib in Resources */,
+				3C451C0329FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf in Resources */,
+				3C451BDF29FCD1EF003E9098 /* LibreFranklin-LightItalic.ttf in Resources */,
+				3C451C0029FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf in Resources */,
 				3C451B5F29FAC42D003E9098 /* NavBar.xib in Resources */,
+				3C451C1029FCD20C003E9098 /* README.txt in Resources */,
 				3C7AC08A29F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */,
 				3C451B0D29FABB58003E9098 /* MovieDashboardVC.xib in Resources */,
+				3C451BE829FCD1EF003E9098 /* LibreFranklin-Thin.ttf in Resources */,
 				3C451B7929FAD902003E9098 /* SearchDasboardVC.xib in Resources */,
+				3C451BF729FCD1EF003E9098 /* LibreFranklin-BoldItalic.ttf in Resources */,
 				F82A004129FBABB900BC9A94 /* BasePageView.xib in Resources */,
 				3C451B8F29FADC08003E9098 /* SearchBar.xib in Resources */,
+				3C451BD929FCD1EF003E9098 /* LibreFranklin-Medium.ttf in Resources */,
 				F82A004929FBABFE00BC9A94 /* SegmentPV.xib in Resources */,
 				3C451B6829FACA68003E9098 /* SettingCell.xib in Resources */,
 				3C187B0029F824F6009F7A0B /* DemoDashboardVC.xib in Resources */,
 				3C7AC08729F6FB7C007F4AB4 /* movie-buff-stag-Info.plist in Resources */,
 				3C451B2529FABBAD003E9098 /* FavoriteDashboardVC.xib in Resources */,
 				3C451B5629FAC24D003E9098 /* SettingDashboardVC.xib in Resources */,
+				3C451C1329FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf in Resources */,
+				3C451BDC29FCD1EF003E9098 /* LibreFranklin-ExtraBoldItalic.ttf in Resources */,
+				3C451BAC29FCCCBF003E9098 /* FVPageActorVC.xib in Resources */,
+				3C451BEB29FCD1EF003E9098 /* LibreFranklin-Light.ttf in Resources */,
+				3C451BFD29FCD1EF003E9098 /* LibreFranklin-Bold.ttf in Resources */,
 				F8EBC07029FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */,
 				3C451B2D29FABBCC003E9098 /* TVShowDashboardVC.xib in Resources */,
+				3C451C1929FCD20C003E9098 /* OFL.txt in Resources */,
+				3C451BF129FCD1EF003E9098 /* LibreFranklin-Italic.ttf in Resources */,
+				3C451C1629FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf in Resources */,
+				3C451BB429FCCCD1003E9098 /* FVPageTVShowVC.xib in Resources */,
+				3C451C0929FCD1EF003E9098 /* LibreFranklin-Black.ttf in Resources */,
+				3C451BD629FCD1EF003E9098 /* LibreFranklin-ThinItalic.ttf in Resources */,
+				3C451BFA29FCD1EF003E9098 /* LibreFranklin-MediumItalic.ttf in Resources */,
 				3C7ABF2E29F6DDE0007F4AB4 /* LaunchScreen.storyboard in Resources */,
+				3C451BEE29FCD1EF003E9098 /* LibreFranklin-ExtraLight.ttf in Resources */,
 				3C187B2A29F85105009F7A0B /* Localizable.strings in Resources */,
+				3C451BE229FCD1EF003E9098 /* LibreFranklin-Regular.ttf in Resources */,
+				3C451BF429FCD1EF003E9098 /* LibreFranklin-BlackItalic.ttf in Resources */,
 				3C451B3529FABBDC003E9098 /* TrackingDashboardVC.xib in Resources */,
 				3C7ABFFC29F6E7C2007F4AB4 /* Colors.xcassets in Resources */,
 				3C187AF329F8242D009F7A0B /* DemoSplashVC.xib in Resources */,
+				3C451BE529FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */,
 				3C7ABF2F29F6DDE0007F4AB4 /* Assets.xcassets in Resources */,
+				3C451BA129FCCC89003E9098 /* FvPageMovieVC.xib in Resources */,
 				3C451B9829FAE0FF003E9098 /* SearchCell.xib in Resources */,
 				3C187AE929F823AA009F7A0B /* DemoLoginVC.xib in Resources */,
 				3C451B1D29FABB96003E9098 /* SelfieDashboardVC.xib in Resources */,
@@ -1314,27 +1559,52 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C451C0729FCD1EF003E9098 /* LibreFranklin-ExtraBold.ttf in Resources */,
 				3C7AC08329F6F89C007F4AB4 /* BSDemoVC.xib in Resources */,
+				3C451C0429FCD1EF003E9098 /* LibreFranklin-SemiBold.ttf in Resources */,
+				3C451BE029FCD1EF003E9098 /* LibreFranklin-LightItalic.ttf in Resources */,
+				3C451C0129FCD1EF003E9098 /* LibreFranklin-ExtraLightItalic.ttf in Resources */,
 				3C451B6029FAC42D003E9098 /* NavBar.xib in Resources */,
+				3C451C1129FCD20C003E9098 /* README.txt in Resources */,
 				3C7AC08B29F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */,
 				3C451B0E29FABB58003E9098 /* MovieDashboardVC.xib in Resources */,
+				3C451BE929FCD1EF003E9098 /* LibreFranklin-Thin.ttf in Resources */,
 				3C451B7A29FAD902003E9098 /* SearchDasboardVC.xib in Resources */,
+				3C451BF829FCD1EF003E9098 /* LibreFranklin-BoldItalic.ttf in Resources */,
 				F82A004229FBABB900BC9A94 /* BasePageView.xib in Resources */,
 				3C451B9029FADC08003E9098 /* SearchBar.xib in Resources */,
+				3C451BDA29FCD1EF003E9098 /* LibreFranklin-Medium.ttf in Resources */,
 				F82A004A29FBABFE00BC9A94 /* SegmentPV.xib in Resources */,
 				3C451B6929FACA68003E9098 /* SettingCell.xib in Resources */,
 				3C187B0129F824F6009F7A0B /* DemoDashboardVC.xib in Resources */,
 				3C7AC08829F6FB7C007F4AB4 /* movie-buff-stag-Info.plist in Resources */,
 				3C451B2629FABBAD003E9098 /* FavoriteDashboardVC.xib in Resources */,
 				3C451B5729FAC24D003E9098 /* SettingDashboardVC.xib in Resources */,
+				3C451C1429FCD20C003E9098 /* LibreFranklin-Italic-VariableFont_wght.ttf in Resources */,
+				3C451BDD29FCD1EF003E9098 /* LibreFranklin-ExtraBoldItalic.ttf in Resources */,
+				3C451BAD29FCCCBF003E9098 /* FVPageActorVC.xib in Resources */,
+				3C451BEC29FCD1EF003E9098 /* LibreFranklin-Light.ttf in Resources */,
+				3C451BFE29FCD1EF003E9098 /* LibreFranklin-Bold.ttf in Resources */,
 				F8EBC07129FB7BAD00701BB6 /* BaseLoadingCell.xib in Resources */,
 				3C451B2E29FABBCC003E9098 /* TVShowDashboardVC.xib in Resources */,
+				3C451C1A29FCD20C003E9098 /* OFL.txt in Resources */,
+				3C451BF229FCD1EF003E9098 /* LibreFranklin-Italic.ttf in Resources */,
+				3C451C1729FCD20C003E9098 /* LibreFranklin-VariableFont_wght.ttf in Resources */,
+				3C451BB529FCCCD1003E9098 /* FVPageTVShowVC.xib in Resources */,
+				3C451C0A29FCD1EF003E9098 /* LibreFranklin-Black.ttf in Resources */,
+				3C451BD729FCD1EF003E9098 /* LibreFranklin-ThinItalic.ttf in Resources */,
+				3C451BFB29FCD1EF003E9098 /* LibreFranklin-MediumItalic.ttf in Resources */,
 				3C7ABF3D29F6DDEA007F4AB4 /* LaunchScreen.storyboard in Resources */,
+				3C451BEF29FCD1EF003E9098 /* LibreFranklin-ExtraLight.ttf in Resources */,
 				3C187B2B29F85105009F7A0B /* Localizable.strings in Resources */,
+				3C451BE329FCD1EF003E9098 /* LibreFranklin-Regular.ttf in Resources */,
+				3C451BF529FCD1EF003E9098 /* LibreFranklin-BlackItalic.ttf in Resources */,
 				3C451B3629FABBDC003E9098 /* TrackingDashboardVC.xib in Resources */,
 				3C7ABFFD29F6E7C2007F4AB4 /* Colors.xcassets in Resources */,
 				3C187AF429F8242D009F7A0B /* DemoSplashVC.xib in Resources */,
+				3C451BE629FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */,
 				3C7ABF3E29F6DDEA007F4AB4 /* Assets.xcassets in Resources */,
+				3C451BA229FCCC89003E9098 /* FvPageMovieVC.xib in Resources */,
 				3C451B9929FAE0FF003E9098 /* SearchCell.xib in Resources */,
 				3C187AEA29F823AA009F7A0B /* DemoLoginVC.xib in Resources */,
 				3C451B1E29FABB96003E9098 /* SelfieDashboardVC.xib in Resources */,
@@ -1490,6 +1760,7 @@
 				3C187AE029F81CB8009F7A0B /* BaseAuthModel.swift in Sources */,
 				3C451B5A29FAC422003E9098 /* NavBar.swift in Sources */,
 				3C7ABFAF29F6E7A7007F4AB4 /* UIView+Extension.swift in Sources */,
+				3C451BB729FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */,
 				3C7ABFB229F6E7A7007F4AB4 /* Observable+Operators.swift in Sources */,
 				3C7AC00429F6E89A007F4AB4 /* BaseViewController.swift in Sources */,
 				3C451B0929FABB58003E9098 /* MovieDashboardVC.swift in Sources */,
@@ -1505,6 +1776,7 @@
 				3C187ADC29F81BD4009F7A0B /* BaseRegistrationModel.swift in Sources */,
 				F82A004C29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
 				3C7AC02F29F6EA5A007F4AB4 /* Localizable.swift in Sources */,
+				3C451B9D29FCCC89003E9098 /* FvPageMovieVC.swift in Sources */,
 				F8638C8229F7CB770091E801 /* BaseAuthService.swift in Sources */,
 				3C187AD829F8173A009F7A0B /* HelperUtils.swift in Sources */,
 				F8638C6C29F7BF7F0091E801 /* BaseNetworkService.swift in Sources */,
@@ -1524,6 +1796,7 @@
 				3C451B3C29FABEE9003E9098 /* BaseIcon.swift in Sources */,
 				3C451B6F29FAD3F7003E9098 /* BaseFont.swift in Sources */,
 				3C7ABF7029F6E74B007F4AB4 /* BaseUtils.swift in Sources */,
+				3C451BBF29FCD088003E9098 /* FvPageMovieVM.swift in Sources */,
 				3C7ABFA629F6E7A7007F4AB4 /* ReactiveUIControl+Extension.swift in Sources */,
 				3C7ABF6D29F6E74B007F4AB4 /* BaseText.swift in Sources */,
 				3C451B1929FABB96003E9098 /* SelfieDashboardVC.swift in Sources */,
@@ -1554,12 +1827,15 @@
 				3C7ABFC129F6E7A7007F4AB4 /* ReactiveTextfield+Extension.swift in Sources */,
 				3C7ABF9A29F6E7A7007F4AB4 /* NSLayoutConstraint+Extension.swift in Sources */,
 				3C7ABEF829F6DD8A007F4AB4 /* AppDelegate.swift in Sources */,
+				3C451BB029FCCCD1003E9098 /* FVPageTVShowVC.swift in Sources */,
 				F8638C6929F7BF7F0091E801 /* BaseLogger.swift in Sources */,
 				3C7ABFF729F6E7A7007F4AB4 /* Collection+Extension.swift in Sources */,
+				3C451BBB29FCD07C003E9098 /* FVPageActorVM.swift in Sources */,
 				F8638CA329F7DB8A0091E801 /* BaseViewModelController.swift in Sources */,
 				3C7AC07E29F6F89C007F4AB4 /* BSDemoVC.swift in Sources */,
 				3C7ABFA329F6E7A7007F4AB4 /* NavigationController+Extension.swift in Sources */,
 				3C451B8A29FADBFC003E9098 /* SearchBar.swift in Sources */,
+				3C451BA829FCCCBF003E9098 /* FVPageActorVC.swift in Sources */,
 				F8638C5229F7AEA90091E801 /* BaseLoading.swift in Sources */,
 				3C7AC00829F6E8BC007F4AB4 /* BaseUIView.swift in Sources */,
 				F8638C7B29F7BF7F0091E801 /* BaseRouter.swift in Sources */,
@@ -1612,6 +1888,7 @@
 				3C7ABFAA29F6E7A7007F4AB4 /* UIButton+Extension.swift in Sources */,
 				3C451B5B29FAC422003E9098 /* NavBar.swift in Sources */,
 				F8638CA429F7DB8A0091E801 /* BaseViewModelController.swift in Sources */,
+				3C451BB829FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */,
 				3C7AC00129F6E837007F4AB4 /* BasePadding.swift in Sources */,
 				F8638CA029F7D9850091E801 /* DemoLoginVM.swift in Sources */,
 				3C451B0A29FABB58003E9098 /* MovieDashboardVC.swift in Sources */,
@@ -1627,6 +1904,7 @@
 				3C7ABFCB29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
 				F82A004D29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
 				3C7ABF9829F6E7A7007F4AB4 /* Data+Extension.swift in Sources */,
+				3C451B9E29FCCC89003E9098 /* FvPageMovieVC.swift in Sources */,
 				3C7ABFB929F6E7A7007F4AB4 /* AVPlayer+Ext.swift in Sources */,
 				F8638C7329F7BF7F0091E801 /* BaseResponse.swift in Sources */,
 				3C7AC03029F6EA5A007F4AB4 /* Localizable.swift in Sources */,
@@ -1646,6 +1924,7 @@
 				3C451B3D29FABEE9003E9098 /* BaseIcon.swift in Sources */,
 				3C451B7029FAD3F7003E9098 /* BaseFont.swift in Sources */,
 				3C187AF029F8242D009F7A0B /* DemoSplashVC.swift in Sources */,
+				3C451BC029FCD088003E9098 /* FvPageMovieVM.swift in Sources */,
 				3C7ABFAD29F6E7A7007F4AB4 /* TabbarController+Extension.swift in Sources */,
 				3C7ABF7129F6E74B007F4AB4 /* BaseUtils.swift in Sources */,
 				3C451B1A29FABB96003E9098 /* SelfieDashboardVC.swift in Sources */,
@@ -1676,12 +1955,15 @@
 				3C187B0429F8250B009F7A0B /* DemoDashboardVM.swift in Sources */,
 				3C7ABF9B29F6E7A7007F4AB4 /* NSLayoutConstraint+Extension.swift in Sources */,
 				3C7ABF2A29F6DDE0007F4AB4 /* AppDelegate.swift in Sources */,
+				3C451BB129FCCCD1003E9098 /* FVPageTVShowVC.swift in Sources */,
 				F8638C6A29F7BF7F0091E801 /* BaseLogger.swift in Sources */,
 				3C187ADD29F81BD4009F7A0B /* BaseRegistrationModel.swift in Sources */,
+				3C451BBC29FCD07C003E9098 /* FVPageActorVM.swift in Sources */,
 				3C7ABFF829F6E7A7007F4AB4 /* Collection+Extension.swift in Sources */,
 				3C7AC07F29F6F89C007F4AB4 /* BSDemoVC.swift in Sources */,
 				3C7ABFA429F6E7A7007F4AB4 /* NavigationController+Extension.swift in Sources */,
 				3C451B8B29FADBFC003E9098 /* SearchBar.swift in Sources */,
+				3C451BA929FCCCBF003E9098 /* FVPageActorVC.swift in Sources */,
 				F8638C5329F7AEA90091E801 /* BaseLoading.swift in Sources */,
 				3C187AFD29F824F6009F7A0B /* DemoDashboardVC.swift in Sources */,
 				3C7AC00929F6E8BC007F4AB4 /* BaseUIView.swift in Sources */,
@@ -1717,6 +1999,7 @@
 				3C7ABFAB29F6E7A7007F4AB4 /* UIButton+Extension.swift in Sources */,
 				3C451B5C29FAC422003E9098 /* NavBar.swift in Sources */,
 				F8638CA529F7DB8A0091E801 /* BaseViewModelController.swift in Sources */,
+				3C451BB929FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */,
 				3C7AC00229F6E837007F4AB4 /* BasePadding.swift in Sources */,
 				F8638CA129F7D9850091E801 /* DemoLoginVM.swift in Sources */,
 				3C451B0B29FABB58003E9098 /* MovieDashboardVC.swift in Sources */,
@@ -1732,6 +2015,7 @@
 				3C7ABFCC29F6E7A7007F4AB4 /* UIScrollView+Extension.swift in Sources */,
 				F82A004E29FBCCB200BC9A94 /* FavoriteDashboardVM.swift in Sources */,
 				3C7ABF9929F6E7A7007F4AB4 /* Data+Extension.swift in Sources */,
+				3C451B9F29FCCC89003E9098 /* FvPageMovieVC.swift in Sources */,
 				3C7ABFBA29F6E7A7007F4AB4 /* AVPlayer+Ext.swift in Sources */,
 				F8638C7429F7BF7F0091E801 /* BaseResponse.swift in Sources */,
 				3C7AC03129F6EA5A007F4AB4 /* Localizable.swift in Sources */,
@@ -1751,6 +2035,7 @@
 				3C451B3E29FABEE9003E9098 /* BaseIcon.swift in Sources */,
 				3C451B7129FAD3F7003E9098 /* BaseFont.swift in Sources */,
 				3C187AF129F8242D009F7A0B /* DemoSplashVC.swift in Sources */,
+				3C451BC129FCD088003E9098 /* FvPageMovieVM.swift in Sources */,
 				3C7ABFAE29F6E7A7007F4AB4 /* TabbarController+Extension.swift in Sources */,
 				3C7ABF7229F6E74B007F4AB4 /* BaseUtils.swift in Sources */,
 				3C451B1B29FABB96003E9098 /* SelfieDashboardVC.swift in Sources */,
@@ -1781,12 +2066,15 @@
 				3C187B0529F8250B009F7A0B /* DemoDashboardVM.swift in Sources */,
 				3C7ABF9C29F6E7A7007F4AB4 /* NSLayoutConstraint+Extension.swift in Sources */,
 				3C7ABF3929F6DDEA007F4AB4 /* AppDelegate.swift in Sources */,
+				3C451BB229FCCCD1003E9098 /* FVPageTVShowVC.swift in Sources */,
 				F8638C6B29F7BF7F0091E801 /* BaseLogger.swift in Sources */,
 				3C187ADE29F81BD4009F7A0B /* BaseRegistrationModel.swift in Sources */,
+				3C451BBD29FCD07C003E9098 /* FVPageActorVM.swift in Sources */,
 				3C7ABFF929F6E7A7007F4AB4 /* Collection+Extension.swift in Sources */,
 				3C7AC08029F6F89C007F4AB4 /* BSDemoVC.swift in Sources */,
 				3C7ABFA529F6E7A7007F4AB4 /* NavigationController+Extension.swift in Sources */,
 				3C451B8C29FADBFC003E9098 /* SearchBar.swift in Sources */,
+				3C451BAA29FCCCBF003E9098 /* FVPageActorVC.swift in Sources */,
 				F8638C5429F7AEA90091E801 /* BaseLoading.swift in Sources */,
 				3C187AFE29F824F6009F7A0B /* DemoDashboardVC.swift in Sources */,
 				3C7AC00A29F6E8BC007F4AB4 /* BaseUIView.swift in Sources */,
