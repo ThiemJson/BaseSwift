@@ -44,4 +44,8 @@ extension UIColor {
     static var disabled: UIColor {
         return UIColor(named: "Disabled") ?? .rgb(0xBFCAD9)
     }
+    
+    static var baseOrange: UIColor {
+        return UIColor(named: "orange") ?? .rgb(0xff8c05)
+    }
 }

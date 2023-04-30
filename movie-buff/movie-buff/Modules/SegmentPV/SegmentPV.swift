@@ -10,17 +10,8 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-enum SegmentSelected {
-    case item1
-    case item2
-    case item3
-}
-
 class SegmentPV: UIView {
     static let nibName      = "SegmentPV"
-    static let indexMapper  = [ SegmentSelected.item1 : 0,
-                                SegmentSelected.item2 : 1,
-                                SegmentSelected.item3 : 2 ]
     
     @IBOutlet var mainView              : UIView!
     @IBOutlet weak var vContentView     : UIView!
@@ -40,7 +31,7 @@ class SegmentPV: UIView {
     /** `Gap` */
     @IBOutlet weak var vGap             : UIView!
     
-    let rxSegmentSelected               = BehaviorRelay<SegmentSelected>.init(value: .item1)
+    let rxSegmentSelected               = BehaviorRelay<Int>.init(value: 0)
     let rxDisposeBag                    = DisposeBag()
     
     override func awakeFromNib() {
@@ -86,7 +77,7 @@ class SegmentPV: UIView {
             .onMain()
             .subscribe(onNext: { [weak self] _ in
                 guard let `self` = self else { return }
-                self.rxSegmentSelected.accept(.item1)
+                self.rxSegmentSelected.accept(0)
             })
             .disposed(by: self.rxDisposeBag)
         
@@ -97,7 +88,7 @@ class SegmentPV: UIView {
             .onMain()
             .subscribe(onNext: { [weak self] _ in
                 guard let `self` = self else { return }
-                self.rxSegmentSelected.accept(.item3)
+                self.rxSegmentSelected.accept(2)
             })
             .disposed(by: self.rxDisposeBag)
         
@@ -108,7 +99,7 @@ class SegmentPV: UIView {
             .onMain()
             .subscribe(onNext: { [weak self] _ in
                 guard let `self` = self else { return }
-                self.rxSegmentSelected.accept(.item2)
+                self.rxSegmentSelected.accept(1)
             })
             .disposed(by: self.rxDisposeBag)
         
@@ -127,13 +118,13 @@ class SegmentPV: UIView {
                     self.lblItem3.textColor = Constant.Color.hex_7A7A7A
                     
                     switch type {
-                    case .item1:
+                    case 0:
                         x = self.vItem1.center.x - self.vGap.frame.width / 2
                         self.lblItem1.textColor = .white
-                    case .item2:
+                    case 1:
                         x = self.vItem2.center.x - self.vGap.frame.width / 2
                         self.lblItem2.textColor = .white
-                    case .item3:
+                    case 2:
                         x = self.vItem3.center.x - self.vGap.frame.width / 2
                         self.lblItem3.textColor = .white
                     default:

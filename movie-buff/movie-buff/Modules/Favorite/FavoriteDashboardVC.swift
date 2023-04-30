@@ -27,12 +27,16 @@ class FavoriteDashboardVC: BasePageViewModelController<FavoriteDashboardVM> {
         self.addChild(self.pageViewController)
         self.vPageView.addSubview(self.pageViewController.view)
         self.pageViewController.didMove(toParent: self)
+        
         // Hiển thị trang đầu tiên
         if let viewcontroller = self.viewControllerAtIndex(0) {
-            self.pageViewController.setViewControllers([viewcontroller],
-                                                       direction: .forward,
-                                                       animated: false,
-                                                       completion: nil)
+            DispatchQueue.main.async {
+                self.vSegment.rxSegmentSelected.accept(0)
+                self.pageViewController.setViewControllers([viewcontroller],
+                                                           direction: .forward,
+                                                           animated: false,
+                                                           completion: nil)
+            }
         }
     }
     
@@ -40,16 +44,30 @@ class FavoriteDashboardVC: BasePageViewModelController<FavoriteDashboardVM> {
         self.vSegment
             .rxSegmentSelected
             .asDriver()
-            .drive(onNext: { [weak self] (type) in
-                guard let `self` = self else { return }
-                print("===> \(self.currentIndex)")
-                let index           = SegmentPV.indexMapper[type] ?? 0
+            .drive(onNext: { [weak self] (index) in
+                guard
+                    let `self`  = self,
+                    let topVC   = self.pageViewController.viewControllers?.first
+                else { return }
+                
+                let currInd = self.indexForViewController(topVC)
                 if let viewcontroller = self.viewControllerAtIndex(index) {
                     self.pageViewController.setViewControllers([viewcontroller],
-                                                               direction: .forward,
+                                                               direction: (currInd < index) ? .forward : .reverse,
                                                                animated: true,
                                                                completion: nil)
                 }
+            })
+            .disposed(by: self.rxDisposeBag)
+    }
+    
+    override func setupBinding() {
+        super.setupBinding()
+        self.rxCurrentIndex
+            .asDriver()
+            .drive(onNext: { [weak self] (index) in
+                guard let `self` = self else { return }
+                self.vSegment.rxSegmentSelected.accept(index)
             })
             .disposed(by: self.rxDisposeBag)
     }

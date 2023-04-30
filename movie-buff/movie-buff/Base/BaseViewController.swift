@@ -83,7 +83,7 @@ open class BaseViewController: UIViewController {
     
     open override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("ViewController ===> \(self.description)")
+        //print("ViewController ===> \(self.description)")
     }
     
     open override func viewWillDisappear(_ animated: Bool) {

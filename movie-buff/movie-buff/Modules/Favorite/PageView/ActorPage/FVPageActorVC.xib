@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FVPageActorVC" customModule="movie_dev" customModuleProvider="target">
             <connections>
+                <outlet property="clvMovie" destination="rx1-Ot-dci" id="7a7-lV-c0f"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,18 +20,24 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Actor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBt-fq-Nho">
-                    <rect key="frame" x="175" y="415" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="rx1-Ot-dci" userLabel="clvMovie">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="rR9-Nl-xkv">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="RBt-fq-Nho" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="An4-I5-6MY"/>
-                <constraint firstItem="RBt-fq-Nho" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="wlc-DI-wU0"/>
+                <constraint firstAttribute="bottom" secondItem="rx1-Ot-dci" secondAttribute="bottom" id="4ae-GV-lsY"/>
+                <constraint firstItem="rx1-Ot-dci" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8k5-5A-STV"/>
+                <constraint firstItem="rx1-Ot-dci" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Dmk-v5-dZp"/>
+                <constraint firstAttribute="trailing" secondItem="rx1-Ot-dci" secondAttribute="trailing" id="o9C-Eu-Syc"/>
             </constraints>
             <point key="canvasLocation" x="71" y="-11"/>
         </view>

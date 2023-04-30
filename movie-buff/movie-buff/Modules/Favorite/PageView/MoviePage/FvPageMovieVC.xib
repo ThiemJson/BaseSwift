@@ -11,26 +11,33 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FvPageMovieVC" customModule="movie_dev" customModuleProvider="target">
             <connections>
+                <outlet property="clvMovie" destination="NBc-Uq-7SJ" id="PPp-jS-gpv"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Movie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="niB-Y0-lwu">
-                    <rect key="frame" x="166" y="323" width="42" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="NBc-Uq-7SJ" userLabel="clvMovie">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QTc-eG-DGV">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="niB-Y0-lwu" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="b1P-wk-0Ye"/>
-                <constraint firstItem="niB-Y0-lwu" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="iMc-AT-865"/>
+                <constraint firstAttribute="bottom" secondItem="NBc-Uq-7SJ" secondAttribute="bottom" id="1SL-Dw-rd1"/>
+                <constraint firstItem="NBc-Uq-7SJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GWT-Hc-9nZ"/>
+                <constraint firstAttribute="trailing" secondItem="NBc-Uq-7SJ" secondAttribute="trailing" id="aYB-Wd-NCD"/>
+                <constraint firstItem="NBc-Uq-7SJ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dBq-f1-1fM"/>
             </constraints>
             <point key="canvasLocation" x="47" y="-11"/>
         </view>

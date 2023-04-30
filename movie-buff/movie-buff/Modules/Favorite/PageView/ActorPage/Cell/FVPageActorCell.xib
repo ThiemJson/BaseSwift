@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FVPageActorCell" customModule="movie_dev" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="189"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="189"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Neg-yi-rAk" userLabel="vContentView">
+                        <rect key="frame" x="0.0" y="0.0" width="162" height="189"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_movie" translatesAutoresizingMaskIntoConstraints="NO" id="l5m-GS-hOH" userLabel="imgActor">
+                                <rect key="frame" x="40.666666666666657" y="4" width="81" height="81"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="l5m-GS-hOH" secondAttribute="height" id="kKa-NP-zIS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnC-Dt-F4m" userLabel="lblActor">
+                                <rect key="frame" x="4" y="95" width="154" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hnC-Dt-F4m" firstAttribute="leading" secondItem="Neg-yi-rAk" secondAttribute="leading" constant="4" id="4cI-AP-fwP"/>
+                            <constraint firstItem="l5m-GS-hOH" firstAttribute="width" secondItem="Neg-yi-rAk" secondAttribute="width" multiplier="0.5" id="51T-4V-0M7"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hnC-Dt-F4m" secondAttribute="bottom" constant="4" id="ErU-8X-Zay"/>
+                            <constraint firstAttribute="trailing" secondItem="hnC-Dt-F4m" secondAttribute="trailing" constant="4" id="Z61-Sp-oem"/>
+                            <constraint firstItem="l5m-GS-hOH" firstAttribute="top" secondItem="Neg-yi-rAk" secondAttribute="top" constant="4" id="kOQ-Mg-L9f"/>
+                            <constraint firstItem="hnC-Dt-F4m" firstAttribute="top" secondItem="l5m-GS-hOH" secondAttribute="bottom" constant="10" id="km0-eB-kN0"/>
+                            <constraint firstItem="l5m-GS-hOH" firstAttribute="centerX" secondItem="Neg-yi-rAk" secondAttribute="centerX" id="oOg-GP-2tE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Neg-yi-rAk" secondAttribute="bottom" id="YoD-rF-790"/>
+                <constraint firstAttribute="trailing" secondItem="Neg-yi-rAk" secondAttribute="trailing" id="d0B-aU-sAu"/>
+                <constraint firstItem="Neg-yi-rAk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eXW-Gw-ckS"/>
+                <constraint firstItem="Neg-yi-rAk" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="z4I-Hb-BRt"/>
+            </constraints>
+            <size key="customSize" width="162" height="189"/>
+            <connections>
+                <outlet property="imgActor" destination="l5m-GS-hOH" id="ew8-mr-o28"/>
+                <outlet property="lblActor" destination="hnC-Dt-F4m" id="vtY-8f-azR"/>
+                <outlet property="vContentView" destination="Neg-yi-rAk" id="9R6-Pt-UGw"/>
+            </connections>
+            <point key="canvasLocation" x="82.44274809160305" y="36.267605633802816"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_movie" width="152" height="188"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -406,6 +406,18 @@
 		3C7AC08929F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AC08529F6FB7C007F4AB4 /* movie-buff-dev-Info.plist */; };
 		3C7AC08A29F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AC08529F6FB7C007F4AB4 /* movie-buff-dev-Info.plist */; };
 		3C7AC08B29F6FB7C007F4AB4 /* movie-buff-dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C7AC08529F6FB7C007F4AB4 /* movie-buff-dev-Info.plist */; };
+		3CD8041F29FE0FF00051C681 /* FvPageMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8041D29FE0FF00051C681 /* FvPageMovieCell.swift */; };
+		3CD8042029FE0FF00051C681 /* FvPageMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8041D29FE0FF00051C681 /* FvPageMovieCell.swift */; };
+		3CD8042129FE0FF00051C681 /* FvPageMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8041D29FE0FF00051C681 /* FvPageMovieCell.swift */; };
+		3CD8042229FE0FF00051C681 /* FvPageMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8041E29FE0FF00051C681 /* FvPageMovieCell.xib */; };
+		3CD8042329FE0FF00051C681 /* FvPageMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8041E29FE0FF00051C681 /* FvPageMovieCell.xib */; };
+		3CD8042429FE0FF00051C681 /* FvPageMovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8041E29FE0FF00051C681 /* FvPageMovieCell.xib */; };
+		3CD8042829FE1F4F0051C681 /* FVPageActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8042629FE1F4F0051C681 /* FVPageActorCell.swift */; };
+		3CD8042929FE1F4F0051C681 /* FVPageActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8042629FE1F4F0051C681 /* FVPageActorCell.swift */; };
+		3CD8042A29FE1F4F0051C681 /* FVPageActorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD8042629FE1F4F0051C681 /* FVPageActorCell.swift */; };
+		3CD8042B29FE1F4F0051C681 /* FVPageActorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8042729FE1F4F0051C681 /* FVPageActorCell.xib */; };
+		3CD8042C29FE1F4F0051C681 /* FVPageActorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8042729FE1F4F0051C681 /* FVPageActorCell.xib */; };
+		3CD8042D29FE1F4F0051C681 /* FVPageActorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CD8042729FE1F4F0051C681 /* FVPageActorCell.xib */; };
 		49237358EFD4BD258C527226 /* Pods_movie_dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8CBDA935BAD3C6E21B1246D /* Pods_movie_dev.framework */; };
 		7C6C01CD1D1CC0390C1DE234 /* Pods_movie_stag.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87004784D53311647236775 /* Pods_movie_stag.framework */; };
 		C2F2A298541B7C72E936B892 /* Pods_movie_prod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA78376866914CBEFCDA605E /* Pods_movie_prod.framework */; };
@@ -637,6 +649,10 @@
 		3C7AC07D29F6F89C007F4AB4 /* BSDemoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BSDemoVC.xib; sourceTree = "<group>"; };
 		3C7AC08429F6FB7C007F4AB4 /* movie-buff-stag-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "movie-buff-stag-Info.plist"; sourceTree = "<group>"; };
 		3C7AC08529F6FB7C007F4AB4 /* movie-buff-dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "movie-buff-dev-Info.plist"; sourceTree = "<group>"; };
+		3CD8041D29FE0FF00051C681 /* FvPageMovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FvPageMovieCell.swift; sourceTree = "<group>"; };
+		3CD8041E29FE0FF00051C681 /* FvPageMovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FvPageMovieCell.xib; sourceTree = "<group>"; };
+		3CD8042629FE1F4F0051C681 /* FVPageActorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FVPageActorCell.swift; sourceTree = "<group>"; };
+		3CD8042729FE1F4F0051C681 /* FVPageActorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FVPageActorCell.xib; sourceTree = "<group>"; };
 		3E4C28B671BBBFC9C8A1261D /* Pods-movie-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie-dev.debug.xcconfig"; path = "Target Support Files/Pods-movie-dev/Pods-movie-dev.debug.xcconfig"; sourceTree = "<group>"; };
 		3EF4B76B75972949BE5AD7F5 /* Pods-movie-prod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie-prod.release.xcconfig"; path = "Target Support Files/Pods-movie-prod/Pods-movie-prod.release.xcconfig"; sourceTree = "<group>"; };
 		55AB3E46A21166AD967C2E0C /* Pods-movie-stag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-movie-stag.release.xcconfig"; path = "Target Support Files/Pods-movie-stag/Pods-movie-stag.release.xcconfig"; sourceTree = "<group>"; };
@@ -890,6 +906,7 @@
 		3C451BA329FCCC8C003E9098 /* MoviePage */ = {
 			isa = PBXGroup;
 			children = (
+				3CD8041C29FE0FD30051C681 /* Cell */,
 				3C451B9B29FCCC89003E9098 /* FvPageMovieVC.swift */,
 				3C451B9C29FCCC89003E9098 /* FvPageMovieVC.xib */,
 				3C451BBE29FCD088003E9098 /* FvPageMovieVM.swift */,
@@ -900,6 +917,7 @@
 		3C451BA429FCCC9F003E9098 /* ActorPage */ = {
 			isa = PBXGroup;
 			children = (
+				3CD8042529FE1F380051C681 /* Cell */,
 				3C451BA629FCCCBF003E9098 /* FVPageActorVC.swift */,
 				3C451BA729FCCCBF003E9098 /* FVPageActorVC.xib */,
 				3C451BBA29FCD07C003E9098 /* FVPageActorVM.swift */,
@@ -1207,6 +1225,24 @@
 			path = BSDemoVC;
 			sourceTree = "<group>";
 		};
+		3CD8041C29FE0FD30051C681 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3CD8041D29FE0FF00051C681 /* FvPageMovieCell.swift */,
+				3CD8041E29FE0FF00051C681 /* FvPageMovieCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		3CD8042529FE1F380051C681 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				3CD8042629FE1F4F0051C681 /* FVPageActorCell.swift */,
+				3CD8042729FE1F4F0051C681 /* FVPageActorCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		6398BE57593810410926EEE1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1492,7 +1528,9 @@
 				3C451BE429FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */,
 				3C7ABF0129F6DD8B007F4AB4 /* Assets.xcassets in Resources */,
 				3C451BA029FCCC89003E9098 /* FvPageMovieVC.xib in Resources */,
+				3CD8042B29FE1F4F0051C681 /* FVPageActorCell.xib in Resources */,
 				3C451B9729FAE0FF003E9098 /* SearchCell.xib in Resources */,
+				3CD8042229FE0FF00051C681 /* FvPageMovieCell.xib in Resources */,
 				3C187AE829F823AA009F7A0B /* DemoLoginVC.xib in Resources */,
 				3C451B1C29FABB96003E9098 /* SelfieDashboardVC.xib in Resources */,
 			);
@@ -1562,7 +1600,9 @@
 				3C451BE529FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */,
 				3C7ABF2F29F6DDE0007F4AB4 /* Assets.xcassets in Resources */,
 				3C451BA129FCCC89003E9098 /* FvPageMovieVC.xib in Resources */,
+				3CD8042C29FE1F4F0051C681 /* FVPageActorCell.xib in Resources */,
 				3C451B9829FAE0FF003E9098 /* SearchCell.xib in Resources */,
+				3CD8042329FE0FF00051C681 /* FvPageMovieCell.xib in Resources */,
 				3C187AE929F823AA009F7A0B /* DemoLoginVC.xib in Resources */,
 				3C451B1D29FABB96003E9098 /* SelfieDashboardVC.xib in Resources */,
 			);
@@ -1618,7 +1658,9 @@
 				3C451BE629FCD1EF003E9098 /* LibreFranklin-SemiBoldItalic.ttf in Resources */,
 				3C7ABF3E29F6DDEA007F4AB4 /* Assets.xcassets in Resources */,
 				3C451BA229FCCC89003E9098 /* FvPageMovieVC.xib in Resources */,
+				3CD8042D29FE1F4F0051C681 /* FVPageActorCell.xib in Resources */,
 				3C451B9929FAE0FF003E9098 /* SearchCell.xib in Resources */,
+				3CD8042429FE0FF00051C681 /* FvPageMovieCell.xib in Resources */,
 				3C187AEA29F823AA009F7A0B /* DemoLoginVC.xib in Resources */,
 				3C451B1E29FABB96003E9098 /* SelfieDashboardVC.xib in Resources */,
 			);
@@ -1766,6 +1808,7 @@
 				3C7AC01629F6E91E007F4AB4 /* ReachabilityService.swift in Sources */,
 				3C7ABFA029F6E7A7007F4AB4 /* UIColor+Extensions.swift in Sources */,
 				F8638C4E29F7ADFE0091E801 /* Notification+Extensions.swift in Sources */,
+				3CD8042829FE1F4F0051C681 /* FVPageActorCell.swift in Sources */,
 				3C7AC00C29F6E8CE007F4AB4 /* BaseViewModel.swift in Sources */,
 				3C451B6429FACA68003E9098 /* SettingCell.swift in Sources */,
 				3C7ABFA929F6E7A7007F4AB4 /* UIButton+Extension.swift in Sources */,
@@ -1776,6 +1819,7 @@
 				3C451BB729FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */,
 				3C7ABFB229F6E7A7007F4AB4 /* Observable+Operators.swift in Sources */,
 				3C7AC00429F6E89A007F4AB4 /* BaseViewController.swift in Sources */,
+				3CD8041F29FE0FF00051C681 /* FvPageMovieCell.swift in Sources */,
 				3C451B0929FABB58003E9098 /* MovieDashboardVC.swift in Sources */,
 				3C7ABF7329F6E74B007F4AB4 /* BaseColor.swift in Sources */,
 				3C7AC02829F6E9C1007F4AB4 /* Language.swift in Sources */,
@@ -1895,6 +1939,7 @@
 				3C7AC02629F6E9C1007F4AB4 /* ErrorResonpose.swift in Sources */,
 				3C7AC01729F6E91E007F4AB4 /* ReachabilityService.swift in Sources */,
 				3C187AD929F8173A009F7A0B /* HelperUtils.swift in Sources */,
+				3CD8042929FE1F4F0051C681 /* FVPageActorCell.swift in Sources */,
 				3C7ABFA129F6E7A7007F4AB4 /* UIColor+Extensions.swift in Sources */,
 				3C451B6529FACA68003E9098 /* SettingCell.swift in Sources */,
 				F8638C4F29F7ADFE0091E801 /* Notification+Extensions.swift in Sources */,
@@ -1905,6 +1950,7 @@
 				3C451BB829FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */,
 				3C7AC00129F6E837007F4AB4 /* BasePadding.swift in Sources */,
 				F8638CA029F7D9850091E801 /* DemoLoginVM.swift in Sources */,
+				3CD8042029FE0FF00051C681 /* FvPageMovieCell.swift in Sources */,
 				3C451B0A29FABB58003E9098 /* MovieDashboardVC.swift in Sources */,
 				3C7ABFB029F6E7A7007F4AB4 /* UIView+Extension.swift in Sources */,
 				3C7ABFB329F6E7A7007F4AB4 /* Observable+Operators.swift in Sources */,
@@ -2007,6 +2053,7 @@
 				3C7AC02729F6E9C1007F4AB4 /* ErrorResonpose.swift in Sources */,
 				3C7AC01829F6E91E007F4AB4 /* ReachabilityService.swift in Sources */,
 				3C187ADA29F8173A009F7A0B /* HelperUtils.swift in Sources */,
+				3CD8042A29FE1F4F0051C681 /* FVPageActorCell.swift in Sources */,
 				3C7ABFA229F6E7A7007F4AB4 /* UIColor+Extensions.swift in Sources */,
 				3C451B6629FACA68003E9098 /* SettingCell.swift in Sources */,
 				F8638C5029F7ADFE0091E801 /* Notification+Extensions.swift in Sources */,
@@ -2017,6 +2064,7 @@
 				3C451BB929FCCD21003E9098 /* FVPageTVShowVM.swift in Sources */,
 				3C7AC00229F6E837007F4AB4 /* BasePadding.swift in Sources */,
 				F8638CA129F7D9850091E801 /* DemoLoginVM.swift in Sources */,
+				3CD8042129FE0FF00051C681 /* FvPageMovieCell.swift in Sources */,
 				3C451B0B29FABB58003E9098 /* MovieDashboardVC.swift in Sources */,
 				3C7ABFB129F6E7A7007F4AB4 /* UIView+Extension.swift in Sources */,
 				3C7ABFB429F6E7A7007F4AB4 /* Observable+Operators.swift in Sources */,

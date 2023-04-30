@@ -21,13 +21,18 @@ struct BaseFont {
         static var text_heavy : UIFont          { UIFont.systemFont(ofSize: HelperUtils.isPad ? 16 : 14, weight: .heavy) }
     }
     
-    struct Libre {}
+    struct Libre {
+        struct Cell {
+            static var title : UIFont           { UIFont.font(size: UIFont.baseFontSize + (HelperUtils.isPad ? 6 : 4), weight: .semibold) }
+            static var caption : UIFont         { UIFont.font(size: UIFont.baseFontSize + (HelperUtils.isPad ? 2 : 0), weight: .regular) }
+        }
+    }
     struct Mono {}
 }
 
 
 extension UIFont {
-    private static let baseFontSize: CGFloat = 14
+    static let baseFontSize: CGFloat = 14
     
     static func font(size: CGFloat, weight: UIFont.Weight) -> UIFont {
         var traits = [UIFontDescriptor.TraitKey: Any]()
@@ -36,7 +41,7 @@ extension UIFont {
         var attributes = [UIFontDescriptor.AttributeName: Any]()
         attributes[.name] = nil
         attributes[.traits] = traits
-        attributes[.family] = "LibreFranklin"
+        attributes[.family] = "Libre Franklin"
         let descriptor = UIFontDescriptor(fontAttributes: attributes)
         
         return UIFont(descriptor: descriptor, size: size)
